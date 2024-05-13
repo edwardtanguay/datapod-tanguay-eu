@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { TopMenuComponent } from "./top-menu/top-menu.component";
 
 @Component({
@@ -7,7 +6,7 @@ import { TopMenuComponent } from "./top-menu/top-menu.component";
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.scss',
-    imports: [RouterOutlet, TopMenuComponent]
+    imports: [TopMenuComponent]
 })
 export class AppComponent {
   title = 'datapod-tanguay-eu';

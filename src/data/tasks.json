@@ -1,90 +1,98 @@
 [
-{
-	"suuid": "qAu4pR",
-	"project": "datapodEngine",
-	"title": "update datasource after reading (and keep suuid constant)",
-	"description": "nn",
-	"rank": "4.8",
-	"status": "todo"
-},
-{
-	"suuid": "VSXKNr",
-	"project": "datapodEngine",
-	"title": "escape double quotes (test with notes items)",
-	"description": "nn",
-	"rank": "5.0",
-	"status": "todo"
-},
-{
-	"suuid": "xrShKG",
-	"project": "datapodEngine",
-	"title": "enable each itemType to be copied to a target file",
-	"description": "nn",
-	"rank": "4.8",
-	"status": "todo"
-},
-{
-	"suuid": "7EClPM",
-	"project": "datapodEngine",
-	"title": "allow trailing properties to be empty",
-	"description": "nn",
-	"rank": "4.9",
-	"status": "todo"
-},
-{
-	"suuid": "FhedOa",
-	"project": "datapodCentral",
-	"title": "get central task management working",
-	"description": "nn",
-	"rank": "4.0",
-	"status": "todo"
-},
-{
-	"suuid": "bRTr8Y",
-	"project": "datapodCentral",
-	"title": "generate navbar from array",
-	"description": "nn",
-	"rank": "4.7",
-	"status": "todo"
-},
-{
-	"suuid": "DyfBHN",
-	"project": "datapodCentral",
-	"title": "move starters over to Datapod Central, make supporting tools section",
-	"description": "nn",
-	"rank": "4.6",
-	"status": "todo"
-},
-{
-	"suuid": "KnWdpr",
-	"project": "goCli",
-	"title": "scan all frontend masters notes howtos and create JSON when which videos were watched",
-	"description": "nn",
-	"rank": "3.9",
-	"status": "todo"
-},
-{
-	"suuid": "KuflGE",
-	"project": "phoenixDatapod",
-	"title": "make a hello world website, host at Render.com",
-	"description": "nn",
-	"rank": "3.7",
-	"status": "todo"
-},
-{
-	"suuid": "A4HD8D",
-	"project": "t3Datapod",
-	"title": "make a hello world website, host at Vercel",
-	"description": "- see: https://create.t3.gg/en/deployment/vercel",
-	"rank": "3.7",
-	"status": "todo"
-},
-{
-	"suuid": "1wDGTj",
-	"project": "techItemsGame",
-	"title": "techItemsGame; as you play, star items to look up later",
-	"description": "nn",
-	"rank": "2.8",
-	"status": "todo"
-}
+	{
+		"suuid": "pcmJAn",
+		"project": "datapodEngine",
+		"title": "update datasource after reading (and keep suuid constant)",
+		"description": "nn",
+		"rank": "4.75",
+		"status": "todo"
+	},
+	{
+		"suuid": "SwOsuO",
+		"project": "datapodEngine",
+		"title": "escape double quotes (test with notes items)",
+		"description": "nn",
+		"rank": "5.0",
+		"status": "todo"
+	},
+	{
+		"suuid": "Wah4Sc",
+		"project": "datapodEngine",
+		"title": "enable each itemType to be copied to a target file",
+		"description": "nn",
+		"rank": "4.8",
+		"status": "todo"
+	},
+	{
+		"suuid": "j6XYbS",
+		"project": "datapodEngine",
+		"title": "allow trailing properties to be empty",
+		"description": "nn",
+		"rank": "4.9",
+		"status": "todo"
+	},
+	{
+		"suuid": "tnZdy6",
+		"project": "datapodCentral",
+		"title": "get central task management working",
+		"description": "nn",
+		"rank": "4.0",
+		"status": "todo"
+	},
+	{
+		"suuid": "YIzE05",
+		"project": "datapodCentral",
+		"title": "generate navbar from array",
+		"description": "nn",
+		"rank": "4.7",
+		"status": "todo"
+	},
+	{
+		"suuid": "EwVIHh",
+		"project": "datapodCentral",
+		"title": "move starters over to Datapod Central, make supporting tools section",
+		"description": "nn",
+		"rank": "4.6",
+		"status": "todo"
+	},
+	{
+		"suuid": "nzaDhA",
+		"project": "goCli",
+		"title": "scan all frontend masters notes howtos and create JSON when which videos were watched",
+		"description": "nn",
+		"rank": "3.9",
+		"status": "todo"
+	},
+	{
+		"suuid": "ndUvYn",
+		"project": "phoenixDatapod",
+		"title": "make a hello world website, host at Render.com",
+		"description": "nn",
+		"rank": "3.7",
+		"status": "todo"
+	},
+	{
+		"suuid": "2hJ0WL",
+		"project": "t3Datapod",
+		"title": "make a hello world website, host at Vercel",
+		"description": "- see: https://create.t3.gg/en/deployment/vercel",
+		"rank": "3.7",
+		"status": "todo"
+	},
+	{
+		"suuid": "T22H9G",
+		"project": "techItemsGame",
+		"title": "techItemsGame; as you play, star items to look up later",
+		"description": "nn",
+		"rank": "2.8",
+		"status": "todo"
+	},
+	{
+		"suuid": "cfxY76",
+		"project": "techsite",
+		"title": "add tech flashcards with 30 of the most useful, with search",
+		"description": "nn",
+		"rank": "4.5",
+		"status": "todo"
+	}
 ]

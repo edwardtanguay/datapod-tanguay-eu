@@ -1,5 +1,5 @@
 import { Component } from "@angular/core";
-import _tasks from "../../assets/data/tasks.json";
+import _tasks from "../../data/tasks.json";
 
 @Component({
 	selector: "app-home",

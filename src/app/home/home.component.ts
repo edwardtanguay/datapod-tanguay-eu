@@ -10,5 +10,5 @@ import _tasks from "../../data/tasks.json";
 })
 export class HomeComponent {
 	title = "test111";
-  tasks = _tasks;
+  tasks = _tasks.sort((a,b) => a.rank < b.rank ? 1 : -1);
 }

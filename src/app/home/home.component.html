@@ -1,3 +1,6 @@
-<p>This is the home page.</p>
-<p>{{title}}</p>
-<p>There are {{tasks.length}} tasks.</p>
+<h2 class="text-yellow-200 text-2xl mb-2">Tasks</h2>
+<section class="text-gray-300">
+	@for (task of tasks; track task.suuid) {
+	<div>{{task.rank}} - {{ task.project }} - {{ task.title }}</div>
+	}
+</section>

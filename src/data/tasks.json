@@ -1,6 +1,6 @@
 [
 	{
-		"suuid": "pcmJAn",
+		"suuid": "I66uPk",
 		"project": "datapodEngine",
 		"title": "update datasource after reading (and keep suuid constant)",
 		"description": "nn",
@@ -8,15 +8,15 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "SwOsuO",
+		"suuid": "I8AZ5U",
 		"project": "datapodEngine",
 		"title": "escape double quotes (test with notes items)",
 		"description": "nn",
 		"rank": "5.0",
-		"status": "todo"
+		"status": "finished"
 	},
 	{
-		"suuid": "Wah4Sc",
+		"suuid": "S8YwrT",
 		"project": "datapodEngine",
 		"title": "enable each itemType to be copied to a target file",
 		"description": "nn",
@@ -24,7 +24,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "j6XYbS",
+		"suuid": "jZvfws",
 		"project": "datapodEngine",
 		"title": "allow trailing properties to be empty",
 		"description": "nn",
@@ -32,7 +32,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "tnZdy6",
+		"suuid": "EsgtBU",
 		"project": "datapodCentral",
 		"title": "get central task management working",
 		"description": "nn",
@@ -40,7 +40,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "YIzE05",
+		"suuid": "AGQQxC",
 		"project": "datapodCentral",
 		"title": "generate navbar from array",
 		"description": "nn",
@@ -48,7 +48,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "EwVIHh",
+		"suuid": "8I5wU2",
 		"project": "datapodCentral",
 		"title": "move starters over to Datapod Central, make supporting tools section",
 		"description": "nn",
@@ -56,7 +56,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "nzaDhA",
+		"suuid": "ASbj4b",
 		"project": "goCli",
 		"title": "scan all frontend masters notes howtos and create JSON when which videos were watched",
 		"description": "nn",
@@ -64,7 +64,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "ndUvYn",
+		"suuid": "fTeQKq",
 		"project": "phoenixDatapod",
 		"title": "make a hello world website, host at Render.com",
 		"description": "nn",
@@ -72,7 +72,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "2hJ0WL",
+		"suuid": "mKWzj2",
 		"project": "t3Datapod",
 		"title": "make a hello world website, host at Vercel",
 		"description": "- see: https://create.t3.gg/en/deployment/vercel",
@@ -80,7 +80,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "T22H9G",
+		"suuid": "RcQsx6",
 		"project": "techItemsGame",
 		"title": "techItemsGame; as you play, star items to look up later",
 		"description": "nn",
@@ -88,7 +88,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "cfxY76",
+		"suuid": "4KQlcU",
 		"project": "techsite",
 		"title": "add tech flashcards with 30 of the most useful, with search",
 		"description": "nn",

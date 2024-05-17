@@ -1,6 +1,6 @@
 [
 	{
-		"suuid": "zIYiED",
+		"suuid": "QvfX8T",
 		"project": "datapodEngine",
 		"title": "update datasource after reading (and keep suuid constant)",
 		"description": "nn",
@@ -8,7 +8,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "BbG97Q",
+		"suuid": "gQka2O",
 		"project": "datapodEngine",
 		"title": "escape double quotes (test with notes items)",
 		"description": "nn",
@@ -16,7 +16,7 @@
 		"status": "finished"
 	},
 	{
-		"suuid": "WjxniY",
+		"suuid": "R4typm",
 		"project": "datapodEngine",
 		"title": "enable each itemType to be copied to the target file",
 		"description": "nn",
@@ -24,7 +24,7 @@
 		"status": "finished"
 	},
 	{
-		"suuid": "tqJFqe",
+		"suuid": "ufQ18v",
 		"project": "datapodEngine",
 		"title": "create tests for all qstr functions",
 		"description": "nn",
@@ -32,7 +32,15 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "xI1wFv",
+		"suuid": "JMPdxp",
+		"project": "datapodEngine",
+		"title": "display the JSON on site as indented, use wrap function in qstr",
+		"description": "nn",
+		"rank": "4.81",
+		"status": "todo"
+	},
+	{
+		"suuid": "OzJQ8O",
 		"project": "datapodEngine",
 		"title": "allow trailing properties to be empty",
 		"description": "nn",
@@ -40,7 +48,7 @@
 		"status": "finished"
 	},
 	{
-		"suuid": "fnAmq7",
+		"suuid": "UXOoZX",
 		"project": "datapodEngine",
 		"title": "allow trailing NUMBER properties to be empty (currently only works with LINES)",
 		"description": "nn",
@@ -48,7 +56,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "hSYEmv",
+		"suuid": "N0hC3l",
 		"project": "datapodCentral",
 		"title": "get central task management working",
 		"description": "nn",
@@ -56,7 +64,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "ixuH03",
+		"suuid": "4a5dsw",
 		"project": "datapodCentral",
 		"title": "generate navbar from array",
 		"description": "nn",
@@ -64,7 +72,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "wFY4v9",
+		"suuid": "aS97rl",
 		"project": "datapodCentral",
 		"title": "move starters over to Datapod Central, make supporting tools section",
 		"description": "nn",
@@ -72,7 +80,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "PB4MaC",
+		"suuid": "Oc4fQ6",
 		"project": "goCli",
 		"title": "scan all frontend masters notes howtos and create JSON when which videos were watched",
 		"description": "nn",
@@ -80,7 +88,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "KCFJxH",
+		"suuid": "46NeKQ",
 		"project": "phoenixDatapod",
 		"title": "make a hello world website, host at Render.com",
 		"description": "nn",
@@ -88,7 +96,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "286Wbu",
+		"suuid": "owGZgU",
 		"project": "t3Datapod",
 		"title": "make a hello world website, host at Vercel",
 		"description": "- see: https://create.t3.gg/en/deployment/vercel",
@@ -96,7 +104,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "X9vKU3",
+		"suuid": "kImNYg",
 		"project": "techItemsGame",
 		"title": "techItemsGame; as you play, star items to look up later",
 		"description": "nn",
@@ -104,7 +112,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "n2UsDP",
+		"suuid": "9igGKh",
 		"project": "techsite",
 		"title": "add tech flashcards with 30 of the most useful, with search",
 		"description": "nn",

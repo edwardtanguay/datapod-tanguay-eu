@@ -1,6 +1,6 @@
 [
 	{
-		"suuid": "I66uPk",
+		"suuid": "zIYiED",
 		"project": "datapodEngine",
 		"title": "update datasource after reading (and keep suuid constant)",
 		"description": "nn",
@@ -8,7 +8,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "I8AZ5U",
+		"suuid": "BbG97Q",
 		"project": "datapodEngine",
 		"title": "escape double quotes (test with notes items)",
 		"description": "nn",
@@ -16,23 +16,39 @@
 		"status": "finished"
 	},
 	{
-		"suuid": "S8YwrT",
+		"suuid": "WjxniY",
 		"project": "datapodEngine",
-		"title": "enable each itemType to be copied to a target file",
+		"title": "enable each itemType to be copied to the target file",
 		"description": "nn",
 		"rank": "4.8",
+		"status": "finished"
+	},
+	{
+		"suuid": "tqJFqe",
+		"project": "datapodEngine",
+		"title": "create tests for all qstr functions",
+		"description": "nn",
+		"rank": "4.68",
 		"status": "todo"
 	},
 	{
-		"suuid": "jZvfws",
+		"suuid": "xI1wFv",
 		"project": "datapodEngine",
 		"title": "allow trailing properties to be empty",
 		"description": "nn",
 		"rank": "4.9",
+		"status": "finished"
+	},
+	{
+		"suuid": "fnAmq7",
+		"project": "datapodEngine",
+		"title": "allow trailing NUMBER properties to be empty (currently only works with LINES)",
+		"description": "nn",
+		"rank": "4.4",
 		"status": "todo"
 	},
 	{
-		"suuid": "EsgtBU",
+		"suuid": "hSYEmv",
 		"project": "datapodCentral",
 		"title": "get central task management working",
 		"description": "nn",
@@ -40,7 +56,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "AGQQxC",
+		"suuid": "ixuH03",
 		"project": "datapodCentral",
 		"title": "generate navbar from array",
 		"description": "nn",
@@ -48,7 +64,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "8I5wU2",
+		"suuid": "wFY4v9",
 		"project": "datapodCentral",
 		"title": "move starters over to Datapod Central, make supporting tools section",
 		"description": "nn",
@@ -56,7 +72,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "ASbj4b",
+		"suuid": "PB4MaC",
 		"project": "goCli",
 		"title": "scan all frontend masters notes howtos and create JSON when which videos were watched",
 		"description": "nn",
@@ -64,7 +80,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "fTeQKq",
+		"suuid": "KCFJxH",
 		"project": "phoenixDatapod",
 		"title": "make a hello world website, host at Render.com",
 		"description": "nn",
@@ -72,7 +88,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "mKWzj2",
+		"suuid": "286Wbu",
 		"project": "t3Datapod",
 		"title": "make a hello world website, host at Vercel",
 		"description": "- see: https://create.t3.gg/en/deployment/vercel",
@@ -80,7 +96,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "RcQsx6",
+		"suuid": "X9vKU3",
 		"project": "techItemsGame",
 		"title": "techItemsGame; as you play, star items to look up later",
 		"description": "nn",
@@ -88,7 +104,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "4KQlcU",
+		"suuid": "n2UsDP",
 		"project": "techsite",
 		"title": "add tech flashcards with 30 of the most useful, with search",
 		"description": "nn",

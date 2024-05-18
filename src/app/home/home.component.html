@@ -1,22 +1,3 @@
-<h2 class="text-yellow-200 text-2xl mb-2">Tasks</h2>
-<section class="text-gray-300">
-	@for (task of tasks; track task.suuid) {
-	<div>
-		<i
-			class="fa fa-square-o text-red-300"
-			aria-hidden="true"
-			*ngIf="task.status === 'todo'"
-		></i>
-		<i
-			class="fa fa-check-square-o text-green-500"
-			aria-hidden="true"
-			*ngIf="task.status === 'finished'"
-		></i>
-		<span
-			[ngStyle]="{ color: task.status === 'todo' ? '#e8c1be' : '#64ed6a', fontStyle:task.status === 'todo' ? 'normal' : 'italic' }"
-		>
-			{{ task.rank }} - {{ task.project }} - {{ task.title }}
-		</span>
-	</div>
-	}
+<section class="text-gray-200">
+<p>This is the home page.</p>
 </section>

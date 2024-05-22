@@ -1,26 +1,12 @@
 <nav class="bg-gray-800 mt-3 px-3 py-2 mb-3">
 	<ul class="flex gap-3 text-gray-400" routerLinkActive="active">
-		<li class="">
-			<a class="" routerLink="/home" routerLinkActive="active-link"
-				>Home</a
-			>
+		@for(pageItem of pageItems; track pageItem.url) {
+		<li>
+			<a routerLink="{{ pageItem.url }}" routerLinkActive="active-link">{{
+				pageItem.name
+			}}</a>
 		</li>
-		<li class="">
-			<a
-				class="nav-link"
-				routerLink="/tasks"
-				routerLinkActive="active-link"
-				>Tasks</a
-			>
-		</li>
-		<li class="">
-			<a
-				class="nav-link"
-				routerLink="/about"
-				routerLinkActive="active-link"
-				>About</a
-			>
-		</li>
+		}
 	</ul>
 </nav>
 

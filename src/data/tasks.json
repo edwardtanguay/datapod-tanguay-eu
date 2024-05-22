@@ -1,6 +1,6 @@
 [
 	{
-		"suuid": "Z4vi54",
+		"suuid": "BZGsRo",
 		"project": "datapodEngine",
 		"title": "update datasource after reading (and keep suuid constant), also one file per itemType",
 		"description": "nn",
@@ -8,7 +8,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "m2fIXg",
+		"suuid": "rZJBph",
 		"project": "datapodEngine",
 		"title": "escape double quotes (test with notes items)",
 		"description": "nn",
@@ -16,7 +16,7 @@
 		"status": "finished"
 	},
 	{
-		"suuid": "eQ28hc",
+		"suuid": "Lj8mfy",
 		"project": "datapodEngine",
 		"title": "enable each itemType to be copied to the target file",
 		"description": "nn",
@@ -24,7 +24,7 @@
 		"status": "finished"
 	},
 	{
-		"suuid": "iA5eiu",
+		"suuid": "aXgmmj",
 		"project": "datapodEngine",
 		"title": "create tests for all qstr functions",
 		"description": "nn",
@@ -32,7 +32,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "69vjVz",
+		"suuid": "rsF14n",
 		"project": "datapodEngine",
 		"title": "display the JSON on site as indented, use wrap function in qstr",
 		"description": "nn",
@@ -40,7 +40,7 @@
 		"status": "finished"
 	},
 	{
-		"suuid": "BlHPB2",
+		"suuid": "NoBzKr",
 		"project": "datapodEngine",
 		"title": "allow trailing properties to be empty",
 		"description": "nn",
@@ -48,7 +48,15 @@
 		"status": "finished"
 	},
 	{
-		"suuid": "ZGNWK2",
+		"suuid": "PGiVu3",
+		"project": "datapodEngine",
+		"title": "split API up into index.ts and server.ts and implement basic testing",
+		"description": "nn",
+		"rank": "4.9",
+		"status": "todo"
+	},
+	{
+		"suuid": "PdIPVB",
 		"project": "datapodEngine",
 		"title": "allow trailing NUMBER properties to be empty (currently only works with LINES)",
 		"description": "nn",
@@ -56,7 +64,15 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "ilqJyn",
+		"suuid": "uymVyo",
+		"project": "datapodEngine",
+		"title": "fix table and Datapod view to show tabs",
+		"description": "nn",
+		"rank": "4.6",
+		"status": "todo"
+	},
+	{
+		"suuid": "Gb6k3x",
 		"project": "datapodCentral",
 		"title": "display overview (siteAndGoalOverview) in Outline mode with images and markdown",
 		"description": "nn",
@@ -64,7 +80,15 @@
 		"status": "finished"
 	},
 	{
-		"suuid": "jOszLj",
+		"suuid": "FKnXNx",
+		"project": "datapodCentral",
+		"title": "show \"Open Tasks\" and \"Finished Tasks\"",
+		"description": "nn",
+		"rank": "5.0",
+		"status": "todo"
+	},
+	{
+		"suuid": "B9Kl43",
 		"project": "datapodCentral",
 		"title": "get central task management working",
 		"description": "nn",
@@ -72,7 +96,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "JzRQTa",
+		"suuid": "nVKazm",
 		"project": "datapodCentral",
 		"title": "generate navbar from array",
 		"description": "nn",
@@ -80,15 +104,15 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "w6dftz",
+		"suuid": "WXrfZo",
 		"project": "datapodCentral",
 		"title": "move starters over to Datapod Central, make supporting tools section",
 		"description": "nn",
-		"rank": "4.6",
+		"rank": "4.8",
 		"status": "todo"
 	},
 	{
-		"suuid": "Wl6dtq",
+		"suuid": "T5MKbU",
 		"project": "goCli",
 		"title": "scan all frontend masters notes howtos and create JSON when which videos were watched",
 		"description": "nn",
@@ -96,7 +120,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "8KaM4j",
+		"suuid": "yA00Jt",
 		"project": "phoenixDatapod",
 		"title": "make a hello world website, host at Render.com",
 		"description": "nn",
@@ -104,7 +128,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "EIMy2F",
+		"suuid": "mgy1eq",
 		"project": "t3Datapod",
 		"title": "make a hello world website, host at Vercel",
 		"description": "- see: https://create.t3.gg/en/deployment/vercel",
@@ -112,7 +136,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "HCYbiF",
+		"suuid": "9PENnt",
 		"project": "techItemsGame",
 		"title": "techItemsGame; as you play, star items to look up later",
 		"description": "nn",
@@ -120,7 +144,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "d8vrSx",
+		"suuid": "4PgM3L",
 		"project": "techsite",
 		"title": "add tech flashcards with 30 of the most useful, with search",
 		"description": "nn",
@@ -128,7 +152,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "YAHSNU",
+		"suuid": "wkPw81",
 		"project": "allSites",
 		"title": "make all sites responsive-first",
 		"description": "nn",

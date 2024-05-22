@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  p {
+    @apply text-white
+  }
+}
+
 
 // SCSS
 $code-background: #111;

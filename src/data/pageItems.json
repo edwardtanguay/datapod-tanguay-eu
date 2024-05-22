@@ -4,6 +4,10 @@
     "url": "/home"
   },
   {
+    "name": "Starters",
+    "url": "/starters"
+  },
+  {
     "name": "Tasks",
     "url": "/tasks"
   },

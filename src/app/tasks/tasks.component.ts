@@ -11,6 +11,6 @@ import _tasks from "../../data/tasks.json";
 })
 export class TasksComponent {
 	tasks = _tasks.sort((a, b) => (a.rank < b.rank ? 1 : -1));
-  openTasks = this.tasks.filter(m => m.status === 'todo')
-  completedTasks = this.tasks.filter(m => m.status === 'finished')
+	openTasks = this.tasks.filter((m) => m.status === "todo");
+	completedTasks = this.tasks.filter((m) => m.status === "completed");
 }

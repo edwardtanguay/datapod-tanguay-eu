@@ -1,6 +1,6 @@
 [
 	{
-		"suuid": "HS6d7I",
+		"suuid": "v0Eo8v",
 		"project": "datapodEngine",
 		"title": "update datasource after reading (and keep suuid constant), also one file per itemType",
 		"description": "nn",
@@ -8,7 +8,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "vj3nze",
+		"suuid": "sGuTcI",
 		"project": "datapodEngine",
 		"title": "escape double quotes (test with notes items)",
 		"description": "nn",
@@ -16,7 +16,7 @@
 		"status": "completed"
 	},
 	{
-		"suuid": "Sm7bSM",
+		"suuid": "RuOGZ9",
 		"project": "datapodEngine",
 		"title": "enable each itemType to be copied to the target file",
 		"description": "nn",
@@ -24,7 +24,7 @@
 		"status": "completed"
 	},
 	{
-		"suuid": "0AN75p",
+		"suuid": "S97BxN",
 		"project": "datapodEngine",
 		"title": "create tests for all qstr functions",
 		"description": "nn",
@@ -32,7 +32,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "3BfZ7k",
+		"suuid": "WAtsxS",
 		"project": "datapodEngine",
 		"title": "display the JSON on site as indented, use wrap function in qstr",
 		"description": "nn",
@@ -40,7 +40,7 @@
 		"status": "completed"
 	},
 	{
-		"suuid": "Ata02S",
+		"suuid": "VSPSB1",
 		"project": "datapodEngine",
 		"title": "allow trailing properties to be empty",
 		"description": "nn",
@@ -48,7 +48,7 @@
 		"status": "completed"
 	},
 	{
-		"suuid": "J1R7pR",
+		"suuid": "skq5b5",
 		"project": "datapodEngine",
 		"title": "split API up into index.ts and server.ts and implement basic testing",
 		"description": "nn",
@@ -56,7 +56,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "3IIsuf",
+		"suuid": "x2dY3v",
 		"project": "datapodEngine",
 		"title": "allow trailing NUMBER properties to be empty (currently only works with LINES)",
 		"description": "nn",
@@ -64,7 +64,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "riyPCY",
+		"suuid": "IJjQHR",
 		"project": "datapodEngine",
 		"title": "fix table and Datapod view to show tabs",
 		"description": "nn",
@@ -72,7 +72,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "H0zRFD",
+		"suuid": "A1SgCf",
 		"project": "datapodCentral",
 		"title": "display overview (siteAndGoalOverview) in Outline mode with images and markdown",
 		"description": "nn",
@@ -80,7 +80,7 @@
 		"status": "completed"
 	},
 	{
-		"suuid": "0kK46f",
+		"suuid": "NCdKuF",
 		"project": "datapodCentral",
 		"title": "show \"Open Tasks\" and \"completed Tasks\"",
 		"description": "nn",
@@ -88,7 +88,7 @@
 		"status": "completed"
 	},
 	{
-		"suuid": "ALz0uL",
+		"suuid": "uTXS9o",
 		"project": "datapodCentral",
 		"title": "get central task management working",
 		"description": "nn",
@@ -96,15 +96,15 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "GKBaF0",
+		"suuid": "tmgpt3",
 		"project": "datapodCentral",
 		"title": "generate navbar from array",
 		"description": "nn",
 		"rank": "4.76",
-		"status": "todo"
+		"status": "completed"
 	},
 	{
-		"suuid": "fYcj2D",
+		"suuid": "WAwqum",
 		"project": "datapodCentral",
 		"title": "move starters over to Datapod Central, make supporting tools section",
 		"description": "nn",
@@ -112,7 +112,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "KpNDJ7",
+		"suuid": "f6OZ47",
 		"project": "goCli",
 		"title": "scan all frontend masters notes howtos and create JSON when which videos were watched",
 		"description": "nn",
@@ -120,7 +120,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "LxUwoq",
+		"suuid": "eLy36S",
 		"project": "phoenixDatapod",
 		"title": "make a hello world website, host at Render.com",
 		"description": "nn",
@@ -128,7 +128,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "o9pp8j",
+		"suuid": "4jieZ4",
 		"project": "t3Datapod",
 		"title": "make a hello world website, host at Vercel",
 		"description": "- see: https://create.t3.gg/en/deployment/vercel",
@@ -136,7 +136,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "dvpcbY",
+		"suuid": "s5mMmx",
 		"project": "techItemsGame",
 		"title": "techItemsGame; as you play, star items to look up later",
 		"description": "nn",
@@ -144,7 +144,7 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "EArtY1",
+		"suuid": "uXA1lE",
 		"project": "techsite",
 		"title": "add tech flashcards with 30 of the most useful, with search",
 		"description": "nn",
@@ -152,11 +152,19 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "8BzZQE",
+		"suuid": "CzFiZf",
 		"project": "allSites",
 		"title": "make all sites responsive-first",
 		"description": "nn",
 		"rank": "4.3",
+		"status": "todo"
+	},
+	{
+		"suuid": "Q9ii7I",
+		"project": "tanguayInfo",
+		"title": "make responsive landing page for Video2Brain videos, with explanation",
+		"description": "nn",
+		"rank": "4.5",
 		"status": "todo"
 	}
 ]

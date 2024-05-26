@@ -1,134 +1,198 @@
 [
 	{
-		"suuid": "v0Eo8v",
+		"dpodId": "8knhAm",
 		"project": "datapodEngine",
-		"title": "update datasource after reading (and keep suuid constant), also one file per itemType",
-		"description": "nn",
+		"title": "make DataType Rank",
+		"description": "",
 		"rank": "4.75",
 		"status": "todo"
 	},
 	{
-		"suuid": "sGuTcI",
+		"dpodId": "5cdkmy",
+		"project": "datapodEngine",
+		"title": "update datasource after reading (and keep dpodId constant), also one file per itemType",
+		"description": "",
+		"rank": "4.95",
+		"status": "todo"
+	},
+	{
+		"dpodId": "aBcLp0",
+		"project": "datapodEngine",
+		"title": "define types for all appData properties and solve the recursive error when doing a json.stringify on it ",
+		"description": "",
+		"rank": "4.85",
+		"status": "todo"
+	},
+	{
+		"dpodId": "k4awrz",
+		"project": "datapodEngine",
+		"title": "refactor qdev.log to handle multiple line outputs or one-liners, make all .debug() functions output strings, and use colors",
+		"description": "",
+		"rank": "4.3",
+		"status": "todo"
+	},
+	{
+		"dpodId": "02g40p",
+		"project": "datapodEngine",
+		"title": "define next tasks to get Datapod Engine portable to other frameworks",
+		"description": "",
+		"rank": "4.94",
+		"status": "todo"
+	},
+	{
+		"dpodId": "2kwV1J",
 		"project": "datapodEngine",
 		"title": "escape double quotes (test with notes items)",
-		"description": "nn",
+		"description": "",
 		"rank": "5.0",
 		"status": "completed"
 	},
 	{
-		"suuid": "RuOGZ9",
+		"dpodId": "7aw2HG",
 		"project": "datapodEngine",
-		"title": "enable each itemType to be copied to the target file",
-		"description": "nn",
-		"rank": "4.8",
-		"status": "completed"
-	},
-	{
-		"suuid": "S97BxN",
-		"project": "datapodEngine",
-		"title": "create tests for all qstr functions",
-		"description": "nn",
-		"rank": "4.68",
-		"status": "todo"
-	},
-	{
-		"suuid": "WAtsxS",
-		"project": "datapodEngine",
-		"title": "display the JSON on site as indented, use wrap function in qstr",
-		"description": "nn",
-		"rank": "4.81",
-		"status": "completed"
-	},
-	{
-		"suuid": "VSPSB1",
-		"project": "datapodEngine",
-		"title": "allow trailing properties to be empty",
-		"description": "nn",
-		"rank": "4.9",
-		"status": "completed"
-	},
-	{
-		"suuid": "skq5b5",
-		"project": "datapodEngine",
-		"title": "split API up into index.ts and server.ts and implement basic testing",
-		"description": "nn",
-		"rank": "4.9",
-		"status": "todo"
-	},
-	{
-		"suuid": "x2dY3v",
-		"project": "datapodEngine",
-		"title": "allow trailing NUMBER properties to be empty (currently only works with LINES)",
-		"description": "nn",
-		"rank": "4.4",
-		"status": "todo"
-	},
-	{
-		"suuid": "IJjQHR",
-		"project": "datapodEngine",
-		"title": "fix table and Datapod view to show tabs",
-		"description": "nn",
-		"rank": "4.6",
-		"status": "todo"
-	},
-	{
-		"suuid": "A1SgCf",
-		"project": "datapodCentral",
-		"title": "display overview (siteAndGoalOverview) in Outline mode with images and markdown",
-		"description": "nn",
-		"rank": "4.78",
-		"status": "completed"
-	},
-	{
-		"suuid": "NCdKuF",
-		"project": "datapodCentral",
-		"title": "show \"Open Tasks\" and \"completed Tasks\"",
-		"description": "nn",
-		"rank": "5.0",
-		"status": "completed"
-	},
-	{
-		"suuid": "uTXS9o",
-		"project": "datapodCentral",
-		"title": "get central task management working",
-		"description": "nn",
+		"title": "in DpodDataLoader, define types for all any types, e.g. dpodItemGroups",
+		"description": "",
 		"rank": "4.0",
 		"status": "todo"
 	},
 	{
-		"suuid": "tmgpt3",
+		"dpodId": "TroRfZ",
+		"project": "datapodEngine",
+		"title": "replace all validation with Zod",
+		"description": "",
+		"rank": "4.3",
+		"status": "todo"
+	},
+	{
+		"dpodId": "7HYz8T",
+		"project": "datapodEngine",
+		"title": "enable each itemType to be copied to the target file",
+		"description": "",
+		"rank": "4.8",
+		"status": "completed"
+	},
+	{
+		"dpodId": "cgL9eg",
+		"project": "datapodEngine",
+		"title": "create tests for all qstr functions",
+		"description": "",
+		"rank": "4.68",
+		"status": "todo"
+	},
+	{
+		"dpodId": "AYzvnx",
+		"project": "datapodEngine",
+		"title": "display the JSON on site as indented, use wrap function in qstr",
+		"description": "",
+		"rank": "4.81",
+		"status": "completed"
+	},
+	{
+		"dpodId": "NIRAdo",
+		"project": "datapodEngine",
+		"title": "allow trailing properties to be empty",
+		"description": "",
+		"rank": "4.9",
+		"status": "completed"
+	},
+	{
+		"dpodId": "IB5wLq",
+		"project": "datapodEngine",
+		"title": "split API up into index.ts and server.ts and implement basic testing",
+		"description": "",
+		"rank": "4.9",
+		"status": "todo"
+	},
+	{
+		"dpodId": "aDgXIi",
+		"project": "datapodEngine",
+		"title": "allow trailing NUMBER properties to be empty (currently only works with LINES)",
+		"description": "",
+		"rank": "4.4",
+		"status": "todo"
+	},
+	{
+		"dpodId": "A2IXUX",
+		"project": "datapodEngine",
+		"title": "fix issue that not all files are being watched, you have to change DpodDataLoader for changes in e.g. qstr to take effect",
+		"description": "",
+		"rank": "4.1",
+		"status": "todo"
+	},
+	{
+		"dpodId": "DkCpLT",
+		"project": "datapodEngine",
+		"title": "fix table and Datapod view to show tabs",
+		"description": "",
+		"rank": "4.6",
+		"status": "todo"
+	},
+	{
+		"dpodId": "HVQjVX",
+		"project": "datapodEngine",
+		"title": "copy over the documentation from the old Node/Express datapod",
+		"description": "",
+		"rank": "3.5",
+		"status": "todo"
+	},
+	{
+		"dpodId": "0ES0CK",
+		"project": "datapodCentral",
+		"title": "display overview (siteAndGoalOverview) in Outline mode with images and markdown",
+		"description": "",
+		"rank": "4.78",
+		"status": "completed"
+	},
+	{
+		"dpodId": "Msyuxa",
+		"project": "datapodCentral",
+		"title": "show \"Open Tasks\" and \"completed Tasks\"",
+		"description": "",
+		"rank": "5.0",
+		"status": "completed"
+	},
+	{
+		"dpodId": "XNoJGB",
+		"project": "datapodCentral",
+		"title": "get central task management working",
+		"description": "",
+		"rank": "4.0",
+		"status": "todo"
+	},
+	{
+		"dpodId": "wRUlL5",
 		"project": "datapodCentral",
 		"title": "generate navbar from array",
-		"description": "nn",
+		"description": "",
 		"rank": "4.76",
 		"status": "completed"
 	},
 	{
-		"suuid": "WAwqum",
+		"dpodId": "PNoXNC",
 		"project": "datapodCentral",
 		"title": "move starters over to Datapod Central, make supporting tools section",
-		"description": "nn",
+		"description": "",
 		"rank": "4.8",
 		"status": "todo"
 	},
 	{
-		"suuid": "f6OZ47",
+		"dpodId": "2V3Oh9",
 		"project": "goCli",
 		"title": "scan all frontend masters notes howtos and create JSON when which videos were watched",
-		"description": "nn",
+		"description": "",
 		"rank": "3.9",
 		"status": "todo"
 	},
 	{
-		"suuid": "eLy36S",
+		"dpodId": "81Bbvr",
 		"project": "phoenixDatapod",
 		"title": "make a hello world website, host at Render.com",
-		"description": "nn",
+		"description": "",
 		"rank": "3.7",
 		"status": "todo"
 	},
 	{
-		"suuid": "4jieZ4",
+		"dpodId": "VoIa9e",
 		"project": "t3Datapod",
 		"title": "make a hello world website, host at Vercel",
 		"description": "- see: https://create.t3.gg/en/deployment/vercel",
@@ -136,34 +200,34 @@
 		"status": "todo"
 	},
 	{
-		"suuid": "s5mMmx",
+		"dpodId": "vFclV0",
 		"project": "techItemsGame",
 		"title": "techItemsGame; as you play, star items to look up later",
-		"description": "nn",
+		"description": "",
 		"rank": "2.8",
 		"status": "todo"
 	},
 	{
-		"suuid": "uXA1lE",
+		"dpodId": "7o9ILC",
 		"project": "techsite",
 		"title": "add tech flashcards with 30 of the most useful, with search",
-		"description": "nn",
+		"description": "",
 		"rank": "4.5",
 		"status": "todo"
 	},
 	{
-		"suuid": "CzFiZf",
+		"dpodId": "llBmOr",
 		"project": "allSites",
 		"title": "make all sites responsive-first",
-		"description": "nn",
+		"description": "",
 		"rank": "4.3",
 		"status": "todo"
 	},
 	{
-		"suuid": "Q9ii7I",
+		"dpodId": "IHKITt",
 		"project": "tanguayInfo",
 		"title": "make responsive landing page for Video2Brain videos, with explanation",
-		"description": "nn",
+		"description": "",
 		"rank": "4.5",
 		"status": "todo"
 	}

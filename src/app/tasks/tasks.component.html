@@ -2,7 +2,7 @@
 <section class="text-gray-300 flex flex-col md:flex-row gap-6">
 	<section>
 		<h2 class="text-yellow-200 text-2xl mb-2">Open Tasks</h2>
-		@for (task of openTasks; track task.suuid) {
+		@for (task of openTasks; track task.dpodId) {
 		<div class="flex gap-2">
 			<div class="w-[1rem]">
 				<i
@@ -29,7 +29,7 @@
 	</section>
 	<section>
 		<h2 class="text-yellow-200 text-2xl mb-2">Completed Tasks</h2>
-		@for (task of completedTasks; track task.suuid) {
+		@for (task of completedTasks; track task.dpodId) {
 		<div class="flex gap-2">
 			<div class="w-[1rem]">
 				<i

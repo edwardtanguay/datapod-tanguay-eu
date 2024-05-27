@@ -1,6 +1,6 @@
 [
 	{
-		"dpodId": "8knhAm",
+		"dpodId": "gRiGZ5",
 		"project": "datapodEngine",
 		"title": "make DataType Rank",
 		"description": "",
@@ -8,7 +8,7 @@
 		"status": "todo"
 	},
 	{
-		"dpodId": "5cdkmy",
+		"dpodId": "5VwOUM",
 		"project": "datapodEngine",
 		"title": "update datasource after reading (and keep dpodId constant), also one file per itemType",
 		"description": "",
@@ -16,15 +16,15 @@
 		"status": "todo"
 	},
 	{
-		"dpodId": "aBcLp0",
+		"dpodId": "mD0Duj",
 		"project": "datapodEngine",
-		"title": "define types for all appData properties and solve the recursive error when doing a json.stringify on it ",
+		"title": "define types for all appData properties and solve the recursive error when doing a json.stringify on it",
 		"description": "",
 		"rank": "4.85",
 		"status": "todo"
 	},
 	{
-		"dpodId": "k4awrz",
+		"dpodId": "x6VLry",
 		"project": "datapodEngine",
 		"title": "refactor qdev.log to handle multiple line outputs or one-liners, make all .debug() functions output strings, and use colors",
 		"description": "",
@@ -32,7 +32,7 @@
 		"status": "todo"
 	},
 	{
-		"dpodId": "02g40p",
+		"dpodId": "r7Zrbi",
 		"project": "datapodEngine",
 		"title": "define next tasks to get Datapod Engine portable to other frameworks",
 		"description": "",
@@ -40,7 +40,7 @@
 		"status": "todo"
 	},
 	{
-		"dpodId": "2kwV1J",
+		"dpodId": "z4bHpV",
 		"project": "datapodEngine",
 		"title": "escape double quotes (test with notes items)",
 		"description": "",
@@ -48,7 +48,7 @@
 		"status": "completed"
 	},
 	{
-		"dpodId": "7aw2HG",
+		"dpodId": "lHvCkQ",
 		"project": "datapodEngine",
 		"title": "in DpodDataLoader, define types for all any types, e.g. dpodItemGroups",
 		"description": "",
@@ -56,7 +56,7 @@
 		"status": "todo"
 	},
 	{
-		"dpodId": "TroRfZ",
+		"dpodId": "7wnFXU",
 		"project": "datapodEngine",
 		"title": "replace all validation with Zod",
 		"description": "",
@@ -64,7 +64,7 @@
 		"status": "todo"
 	},
 	{
-		"dpodId": "7HYz8T",
+		"dpodId": "GLVQ0t",
 		"project": "datapodEngine",
 		"title": "enable each itemType to be copied to the target file",
 		"description": "",
@@ -72,15 +72,15 @@
 		"status": "completed"
 	},
 	{
-		"dpodId": "cgL9eg",
+		"dpodId": "YtNwbT",
 		"project": "datapodEngine",
-		"title": "create tests for all qstr functions",
+		"title": "create tests for all qtools functions",
 		"description": "",
 		"rank": "4.68",
 		"status": "todo"
 	},
 	{
-		"dpodId": "AYzvnx",
+		"dpodId": "QwRQF4",
 		"project": "datapodEngine",
 		"title": "display the JSON on site as indented, use wrap function in qstr",
 		"description": "",
@@ -88,7 +88,7 @@
 		"status": "completed"
 	},
 	{
-		"dpodId": "NIRAdo",
+		"dpodId": "UnqBUQ",
 		"project": "datapodEngine",
 		"title": "allow trailing properties to be empty",
 		"description": "",
@@ -96,7 +96,7 @@
 		"status": "completed"
 	},
 	{
-		"dpodId": "IB5wLq",
+		"dpodId": "KZsdRR",
 		"project": "datapodEngine",
 		"title": "split API up into index.ts and server.ts and implement basic testing",
 		"description": "",
@@ -104,7 +104,7 @@
 		"status": "todo"
 	},
 	{
-		"dpodId": "aDgXIi",
+		"dpodId": "fiwb7i",
 		"project": "datapodEngine",
 		"title": "allow trailing NUMBER properties to be empty (currently only works with LINES)",
 		"description": "",
@@ -112,7 +112,7 @@
 		"status": "todo"
 	},
 	{
-		"dpodId": "A2IXUX",
+		"dpodId": "AUyTkU",
 		"project": "datapodEngine",
 		"title": "fix issue that not all files are being watched, you have to change DpodDataLoader for changes in e.g. qstr to take effect",
 		"description": "",
@@ -120,7 +120,7 @@
 		"status": "todo"
 	},
 	{
-		"dpodId": "DkCpLT",
+		"dpodId": "5BnKYY",
 		"project": "datapodEngine",
 		"title": "fix table and Datapod view to show tabs",
 		"description": "",
@@ -128,7 +128,7 @@
 		"status": "todo"
 	},
 	{
-		"dpodId": "HVQjVX",
+		"dpodId": "5SgBRt",
 		"project": "datapodEngine",
 		"title": "copy over the documentation from the old Node/Express datapod",
 		"description": "",
@@ -136,7 +136,7 @@
 		"status": "todo"
 	},
 	{
-		"dpodId": "0ES0CK",
+		"dpodId": "HZL1Dp",
 		"project": "datapodCentral",
 		"title": "display overview (siteAndGoalOverview) in Outline mode with images and markdown",
 		"description": "",
@@ -144,7 +144,7 @@
 		"status": "completed"
 	},
 	{
-		"dpodId": "Msyuxa",
+		"dpodId": "H69xIT",
 		"project": "datapodCentral",
 		"title": "show \"Open Tasks\" and \"completed Tasks\"",
 		"description": "",
@@ -152,7 +152,7 @@
 		"status": "completed"
 	},
 	{
-		"dpodId": "XNoJGB",
+		"dpodId": "bKqsD7",
 		"project": "datapodCentral",
 		"title": "get central task management working",
 		"description": "",
@@ -160,7 +160,7 @@
 		"status": "todo"
 	},
 	{
-		"dpodId": "wRUlL5",
+		"dpodId": "kwvM3j",
 		"project": "datapodCentral",
 		"title": "generate navbar from array",
 		"description": "",
@@ -168,7 +168,7 @@
 		"status": "completed"
 	},
 	{
-		"dpodId": "PNoXNC",
+		"dpodId": "IInb6Q",
 		"project": "datapodCentral",
 		"title": "move starters over to Datapod Central, make supporting tools section",
 		"description": "",
@@ -176,7 +176,7 @@
 		"status": "todo"
 	},
 	{
-		"dpodId": "2V3Oh9",
+		"dpodId": "T0sJoV",
 		"project": "goCli",
 		"title": "scan all frontend masters notes howtos and create JSON when which videos were watched",
 		"description": "",
@@ -184,7 +184,7 @@
 		"status": "todo"
 	},
 	{
-		"dpodId": "81Bbvr",
+		"dpodId": "t9W54m",
 		"project": "phoenixDatapod",
 		"title": "make a hello world website, host at Render.com",
 		"description": "",
@@ -192,7 +192,7 @@
 		"status": "todo"
 	},
 	{
-		"dpodId": "VoIa9e",
+		"dpodId": "CyysO3",
 		"project": "t3Datapod",
 		"title": "make a hello world website, host at Vercel",
 		"description": "- see: https://create.t3.gg/en/deployment/vercel",
@@ -200,7 +200,7 @@
 		"status": "todo"
 	},
 	{
-		"dpodId": "vFclV0",
+		"dpodId": "Y2XmUY",
 		"project": "techItemsGame",
 		"title": "techItemsGame; as you play, star items to look up later",
 		"description": "",
@@ -208,7 +208,7 @@
 		"status": "todo"
 	},
 	{
-		"dpodId": "7o9ILC",
+		"dpodId": "jq7iPC",
 		"project": "techsite",
 		"title": "add tech flashcards with 30 of the most useful, with search",
 		"description": "",
@@ -216,7 +216,7 @@
 		"status": "todo"
 	},
 	{
-		"dpodId": "llBmOr",
+		"dpodId": "6nOqGz",
 		"project": "allSites",
 		"title": "make all sites responsive-first",
 		"description": "",
@@ -224,7 +224,7 @@
 		"status": "todo"
 	},
 	{
-		"dpodId": "IHKITt",
+		"dpodId": "V55AYX",
 		"project": "tanguayInfo",
 		"title": "make responsive landing page for Video2Brain videos, with explanation",
 		"description": "",

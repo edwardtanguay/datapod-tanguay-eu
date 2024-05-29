@@ -1,7 +1,39 @@
 [
 	{
+		"dpodId": "pyFHYz",
+		"project": "datapodForViteReact",
+		"title": "enable user to delete dpod in a dpod text block and get a new one, for easy adding by copying and changing",
+		"description": "",
+		"rank": "3.5",
+		"status": "status:todo"
+	},
+	{
+		"dpodId": "7f797q",
+		"project": "datapodForViteReact",
+		"title": "make admin page with button \"Create CRUD page for item type\"",
+		"description": "",
+		"rank": "4.3",
+		"status": "todo"
+	},
+	{
+		"dpodId": "7hK2Mm",
+		"project": "datapodForViteReact",
+		"title": "enable default values to be defined in schema",
+		"description": "if you just type the item type marker, then all defaults values are filled in",
+		"rank": "4.0",
+		"status": ""
+	},
+	{
+		"dpodId": "7sslHI",
+		"project": "datapodForViteReact",
+		"title": "enable namespaces for dpod text files",
+		"description": "",
+		"rank": "3.8",
+		"status": "todo"
+	},
+	{
 		"dpodId": "gRiGZ5",
-		"project": "datapodEngine",
+		"project": "datapodForViteReact",
 		"title": "make DataType Rank",
 		"description": "",
 		"rank": "4.75",
@@ -9,39 +41,31 @@
 	},
 	{
 		"dpodId": "5VwOUM",
-		"project": "datapodEngine",
+		"project": "datapodForViteReact",
 		"title": "update datasource after reading (and keep dpodId constant), also one file per itemType",
 		"description": "",
 		"rank": "4.95",
-		"status": "todo"
+		"status": "completed"
 	},
 	{
 		"dpodId": "mD0Duj",
-		"project": "datapodEngine",
+		"project": "datapodForViteReact",
 		"title": "define types for all appData properties and solve the recursive error when doing a json.stringify on it",
 		"description": "",
-		"rank": "4.85",
+		"rank": "4.45",
 		"status": "todo"
 	},
 	{
 		"dpodId": "x6VLry",
-		"project": "datapodEngine",
-		"title": "refactor qdev.log to handle multiple line outputs or one-liners, make all .debug() functions output strings, and use colors",
-		"description": "",
+		"project": "datapodForViteReact",
+		"title": "refactor qdev.log to handle multiple line outputs or one-liners",
+		"description": "- make all .debug() functions output strings\n- use colors",
 		"rank": "4.3",
 		"status": "todo"
 	},
 	{
-		"dpodId": "r7Zrbi",
-		"project": "datapodEngine",
-		"title": "define next tasks to get Datapod Engine portable to other frameworks",
-		"description": "",
-		"rank": "4.94",
-		"status": "todo"
-	},
-	{
 		"dpodId": "z4bHpV",
-		"project": "datapodEngine",
+		"project": "datapodForViteReact",
 		"title": "escape double quotes (test with notes items)",
 		"description": "",
 		"rank": "5.0",
@@ -49,7 +73,7 @@
 	},
 	{
 		"dpodId": "lHvCkQ",
-		"project": "datapodEngine",
+		"project": "datapodForViteReact",
 		"title": "in DpodDataLoader, define types for all any types, e.g. dpodItemGroups",
 		"description": "",
 		"rank": "4.0",
@@ -57,7 +81,7 @@
 	},
 	{
 		"dpodId": "7wnFXU",
-		"project": "datapodEngine",
+		"project": "datapodForViteReact",
 		"title": "replace all validation with Zod",
 		"description": "",
 		"rank": "4.3",
@@ -65,7 +89,7 @@
 	},
 	{
 		"dpodId": "GLVQ0t",
-		"project": "datapodEngine",
+		"project": "datapodForViteReact",
 		"title": "enable each itemType to be copied to the target file",
 		"description": "",
 		"rank": "4.8",
@@ -73,15 +97,15 @@
 	},
 	{
 		"dpodId": "YtNwbT",
-		"project": "datapodEngine",
+		"project": "datapodForViteReact",
 		"title": "create tests for all qtools functions",
 		"description": "",
-		"rank": "4.68",
+		"rank": "3.8",
 		"status": "todo"
 	},
 	{
 		"dpodId": "QwRQF4",
-		"project": "datapodEngine",
+		"project": "datapodForViteReact",
 		"title": "display the JSON on site as indented, use wrap function in qstr",
 		"description": "",
 		"rank": "4.81",
@@ -89,7 +113,7 @@
 	},
 	{
 		"dpodId": "UnqBUQ",
-		"project": "datapodEngine",
+		"project": "datapodForViteReact",
 		"title": "allow trailing properties to be empty",
 		"description": "",
 		"rank": "4.9",
@@ -97,39 +121,63 @@
 	},
 	{
 		"dpodId": "KZsdRR",
-		"project": "datapodEngine",
+		"project": "datapodForViteReact",
 		"title": "split API up into index.ts and server.ts and implement basic testing",
 		"description": "",
-		"rank": "4.9",
+		"rank": "4.3",
 		"status": "todo"
 	},
 	{
 		"dpodId": "fiwb7i",
-		"project": "datapodEngine",
+		"project": "datapodForViteReact",
 		"title": "allow trailing NUMBER properties to be empty (currently only works with LINES)",
 		"description": "",
 		"rank": "4.4",
 		"status": "todo"
 	},
 	{
-		"dpodId": "AUyTkU",
-		"project": "datapodEngine",
-		"title": "fix issue that not all files are being watched, you have to change DpodDataLoader for changes in e.g. qstr to take effect",
+		"dpodId": "XXJ9yF",
+		"project": "datapodForViteReact",
+		"title": "create dpodWhenCreated and dpodWhatCreated fields",
 		"description": "",
+		"rank": "2.3",
+		"status": "todo"
+	},
+	{
+		"dpodId": "hRVB0g",
+		"project": "datapodForViteReact",
+		"title": "in appConfig allow developer to define paths to dpodBatch files to import any item",
+		"description": "",
+		"rank": "4.4",
+		"status": "todo"
+	},
+	{
+		"dpodId": "AUyTkU",
+		"project": "datapodForViteReact",
+		"title": "fix issue that not all files are being watched",
+		"description": "you have to change DpodDataLoader for changes in e.g. qstr to take effect",
 		"rank": "4.1",
 		"status": "todo"
 	},
 	{
-		"dpodId": "5BnKYY",
-		"project": "datapodEngine",
-		"title": "fix table and Datapod view to show tabs",
+		"dpodId": "hMfFZV",
+		"project": "datapodForViteReact",
+		"title": "enable one-liner imports which can be in dpod data files or dpodBatch files",
 		"description": "",
-		"rank": "4.6",
+		"rank": "4.0",
 		"status": "todo"
 	},
 	{
+		"dpodId": "5BnKYY",
+		"project": "datapodForViteReact",
+		"title": "fix table and Datapod view to show tabs",
+		"description": "",
+		"rank": "4.6",
+		"status": "complete"
+	},
+	{
 		"dpodId": "5SgBRt",
-		"project": "datapodEngine",
+		"project": "datapodForViteReact",
 		"title": "copy over the documentation from the old Node/Express datapod",
 		"description": "",
 		"rank": "3.5",
@@ -170,7 +218,7 @@
 	{
 		"dpodId": "IInb6Q",
 		"project": "datapodCentral",
-		"title": "move starters over to Datapod Central, make supporting tools section",
+		"title": "replan and restructure starter page to reflect new strategy: open-source datapod projects",
 		"description": "",
 		"rank": "4.8",
 		"status": "todo"

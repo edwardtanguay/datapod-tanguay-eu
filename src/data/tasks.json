@@ -1,6 +1,7 @@
 [
 	{
 		"dpodId": "pyFHYz",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "datapodForViteReact",
 		"title": "enable user to delete dpod in a dpod text block and get a new one, for easy adding by copying and changing",
 		"description": "",
@@ -9,6 +10,7 @@
 	},
 	{
 		"dpodId": "7f797q",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "datapodForViteReact",
 		"title": "make admin page with button \"Create CRUD page for item type\"",
 		"description": "",
@@ -17,6 +19,7 @@
 	},
 	{
 		"dpodId": "7hK2Mm",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "datapodForViteReact",
 		"title": "enable default values to be defined in schema",
 		"description": "if you just type the item type marker, then all defaults values are filled in",
@@ -25,6 +28,7 @@
 	},
 	{
 		"dpodId": "7sslHI",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "datapodForViteReact",
 		"title": "enable namespaces for dpod text files",
 		"description": "",
@@ -33,6 +37,7 @@
 	},
 	{
 		"dpodId": "gRiGZ5",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "datapodForViteReact",
 		"title": "make DataType Rank",
 		"description": "",
@@ -41,6 +46,7 @@
 	},
 	{
 		"dpodId": "5VwOUM",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "datapodForViteReact",
 		"title": "update datasource after reading (and keep dpodId constant), also one file per itemType",
 		"description": "",
@@ -49,6 +55,7 @@
 	},
 	{
 		"dpodId": "mD0Duj",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "datapodForViteReact",
 		"title": "define types for all appData properties and solve the recursive error when doing a json.stringify on it",
 		"description": "",
@@ -57,6 +64,7 @@
 	},
 	{
 		"dpodId": "x6VLry",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "datapodForViteReact",
 		"title": "refactor qdev.log to handle multiple line outputs or one-liners",
 		"description": "- make all .debug() functions output strings\n- use colors",
@@ -65,6 +73,7 @@
 	},
 	{
 		"dpodId": "z4bHpV",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "datapodForViteReact",
 		"title": "escape double quotes (test with notes items)",
 		"description": "",
@@ -73,6 +82,7 @@
 	},
 	{
 		"dpodId": "lHvCkQ",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "datapodForViteReact",
 		"title": "in DpodDataLoader, define types for all any types, e.g. dpodItemGroups",
 		"description": "",
@@ -81,6 +91,7 @@
 	},
 	{
 		"dpodId": "7wnFXU",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "datapodForViteReact",
 		"title": "replace all validation with Zod",
 		"description": "",
@@ -89,6 +100,7 @@
 	},
 	{
 		"dpodId": "GLVQ0t",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "datapodForViteReact",
 		"title": "enable each itemType to be copied to the target file",
 		"description": "",
@@ -97,6 +109,7 @@
 	},
 	{
 		"dpodId": "YtNwbT",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "datapodForViteReact",
 		"title": "create tests for all qtools functions",
 		"description": "",
@@ -105,6 +118,7 @@
 	},
 	{
 		"dpodId": "QwRQF4",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "datapodForViteReact",
 		"title": "display the JSON on site as indented, use wrap function in qstr",
 		"description": "",
@@ -113,6 +127,7 @@
 	},
 	{
 		"dpodId": "UnqBUQ",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "datapodForViteReact",
 		"title": "allow trailing properties to be empty",
 		"description": "",
@@ -121,6 +136,7 @@
 	},
 	{
 		"dpodId": "KZsdRR",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "datapodForViteReact",
 		"title": "split API up into index.ts and server.ts and implement basic testing",
 		"description": "",
@@ -129,6 +145,7 @@
 	},
 	{
 		"dpodId": "fiwb7i",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "datapodForViteReact",
 		"title": "allow trailing NUMBER properties to be empty (currently only works with LINES)",
 		"description": "",
@@ -137,6 +154,7 @@
 	},
 	{
 		"dpodId": "XXJ9yF",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "datapodForViteReact",
 		"title": "create dpodWhenCreated and dpodWhatCreated fields",
 		"description": "",
@@ -145,6 +163,7 @@
 	},
 	{
 		"dpodId": "hRVB0g",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "datapodForViteReact",
 		"title": "in appConfig allow developer to define paths to dpodBatch files to import any item",
 		"description": "",
@@ -153,6 +172,7 @@
 	},
 	{
 		"dpodId": "AUyTkU",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "datapodForViteReact",
 		"title": "fix issue that not all files are being watched",
 		"description": "you have to change DpodDataLoader for changes in e.g. qstr to take effect",
@@ -161,6 +181,7 @@
 	},
 	{
 		"dpodId": "hMfFZV",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "datapodForViteReact",
 		"title": "enable one-liner imports which can be in dpod data files or dpodBatch files",
 		"description": "",
@@ -169,6 +190,7 @@
 	},
 	{
 		"dpodId": "5BnKYY",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "datapodForViteReact",
 		"title": "fix table and Datapod view to show tabs",
 		"description": "",
@@ -177,6 +199,7 @@
 	},
 	{
 		"dpodId": "5SgBRt",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "datapodForViteReact",
 		"title": "copy over the documentation from the old Node/Express datapod",
 		"description": "",
@@ -185,6 +208,7 @@
 	},
 	{
 		"dpodId": "HZL1Dp",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "datapodCentral",
 		"title": "display overview (siteAndGoalOverview) in Outline mode with images and markdown",
 		"description": "",
@@ -193,6 +217,7 @@
 	},
 	{
 		"dpodId": "H69xIT",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "datapodCentral",
 		"title": "show \"Open Tasks\" and \"completed Tasks\"",
 		"description": "",
@@ -201,6 +226,7 @@
 	},
 	{
 		"dpodId": "bKqsD7",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "datapodCentral",
 		"title": "get central task management working",
 		"description": "",
@@ -209,6 +235,7 @@
 	},
 	{
 		"dpodId": "kwvM3j",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "datapodCentral",
 		"title": "generate navbar from array",
 		"description": "",
@@ -217,6 +244,7 @@
 	},
 	{
 		"dpodId": "IInb6Q",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "datapodCentral",
 		"title": "replan and restructure starter page to reflect new strategy: open-source datapod projects",
 		"description": "",
@@ -225,6 +253,7 @@
 	},
 	{
 		"dpodId": "T0sJoV",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "goCli",
 		"title": "scan all frontend masters notes howtos and create JSON when which videos were watched",
 		"description": "",
@@ -233,6 +262,7 @@
 	},
 	{
 		"dpodId": "t9W54m",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "phoenixDatapod",
 		"title": "make a hello world website, host at Render.com",
 		"description": "",
@@ -241,6 +271,7 @@
 	},
 	{
 		"dpodId": "CyysO3",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "t3Datapod",
 		"title": "make a hello world website, host at Vercel",
 		"description": "- see: https://create.t3.gg/en/deployment/vercel",
@@ -249,6 +280,7 @@
 	},
 	{
 		"dpodId": "Y2XmUY",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "techItemsGame",
 		"title": "techItemsGame; as you play, star items to look up later",
 		"description": "",
@@ -257,6 +289,7 @@
 	},
 	{
 		"dpodId": "jq7iPC",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "techsite",
 		"title": "add tech flashcards with 30 of the most useful, with search",
 		"description": "",
@@ -265,6 +298,7 @@
 	},
 	{
 		"dpodId": "6nOqGz",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "allSites",
 		"title": "make all sites responsive-first",
 		"description": "",
@@ -273,10 +307,218 @@
 	},
 	{
 		"dpodId": "V55AYX",
+		"dpodWhenCreated": "2024-07-22 07:53:59",
 		"project": "tanguayInfo",
 		"title": "make responsive landing page for Video2Brain videos, with explanation",
 		"description": "",
 		"rank": "4.5",
+		"status": "todo"
+	},
+	{
+		"dpodId": "8FeqEV",
+		"dpodWhenCreated": "2024-10-01 21:44:56",
+		"project": "general",
+		"title": "foray: get a react site with workspaces working, run \"task development\" to start backend and frontend",
+		"description": "",
+		"rank": "4.9",
+		"status": "todo"
+	},
+	{
+		"dpodId": "Ts07Gr",
+		"dpodWhenCreated": "2024-10-01 21:44:56",
+		"project": "persman",
+		"title": "create and get running, then create Qubidu section for howtos, automate between both computers, e.g. images e.g from screenshots, upload with cronjobs, etc.",
+		"description": "",
+		"rank": "4.8",
+		"status": "todo"
+	},
+	{
+		"dpodId": "zCTbMH",
+		"dpodWhenCreated": "2024-10-01 21:44:56",
+		"project": "general",
+		"title": "howto: create quick server with (see ./serve.sh)",
+		"description": "",
+		"rank": "4.9999",
+		"status": "todo"
+	},
+	{
+		"dpodId": "FnRQJ0",
+		"dpodWhenCreated": "2024-10-01 21:44:56",
+		"project": "dutchVerbs",
+		"title": "integrate this verb page: https://www.dutchpod101.com/blog/2020/10/05/dutch-conjugations",
+		"description": "",
+		"rank": "4.4",
+		"status": "todo"
+	},
+	{
+		"dpodId": "HzXuEb",
+		"dpodWhenCreated": "2024-10-01 21:44:56",
+		"project": "dutchVerbs",
+		"title": "enable notes, e.g. zwemmen can be hebben/zijn",
+		"description": "",
+		"rank": "4.2",
+		"status": "todo"
+	},
+	{
+		"dpodId": "hfpCwK",
+		"dpodWhenCreated": "2024-10-01 21:44:56",
+		"project": "dutchVerbs",
+		"title": "entry: second group of verbs",
+		"description": "",
+		"rank": "4.9",
+		"status": "todo"
+	},
+	{
+		"dpodId": "5vr0gG",
+		"dpodWhenCreated": "2024-10-01 21:44:56",
+		"project": "dutchVerbs",
+		"title": "various tests: show infinitive, ask for single-person past, etc.",
+		"description": "",
+		"rank": "4.98",
+		"status": "todo"
+	},
+	{
+		"dpodId": "aMncXs",
+		"dpodWhenCreated": "2024-10-01 21:44:56",
+		"project": "dutchVerbs",
+		"title": "feature: verb groups e.g. zeggen, zien",
+		"description": "",
+		"rank": "4.88",
+		"status": "todo"
+	},
+	{
+		"dpodId": "GX8pOr",
+		"dpodWhenCreated": "2024-10-01 21:44:56",
+		"project": "dutchVerbs",
+		"title": "techFeature: double-layer menu",
+		"description": "",
+		"rank": "4.6",
+		"status": "todo"
+	},
+	{
+		"dpodId": "QaNZsv",
+		"dpodWhenCreated": "2024-10-01 21:44:56",
+		"project": "dutchVerbs",
+		"title": "feature: search, e.g. \"werden\"",
+		"description": "",
+		"rank": "3.0",
+		"status": "todo"
+	},
+	{
+		"dpodId": "eoZyyT",
+		"dpodWhenCreated": "2024-10-01 21:44:56",
+		"project": "dutchVerbs",
+		"title": "feature: images, read in e.g. ##dutchworden",
+		"description": "",
+		"rank": "4.2",
+		"status": "todo"
+	},
+	{
+		"dpodId": "zf4Vhu",
+		"dpodWhenCreated": "2024-10-01 21:44:56",
+		"project": "dutchVerbs",
+		"title": "feature: audio pronunciation",
+		"description": "",
+		"rank": "4.96",
+		"status": "todo"
+	},
+	{
+		"dpodId": "W7iFRL",
+		"dpodWhenCreated": "2024-10-01 21:44:56",
+		"project": "dutchVerbs",
+		"title": "feature: show how many times verb was looked at",
+		"description": "",
+		"rank": "4.999",
+		"status": "completed"
+	},
+	{
+		"dpodId": "Z8abFE",
+		"dpodWhenCreated": "2024-10-02 23:08:42",
+		"project": "dutchVerbs",
+		"title": "enter second batch of 30 verbs",
+		"description": "",
+		"rank": "4.9",
+		"status": "todo"
+	},
+	{
+		"dpodId": "Cz2Ukm",
+		"dpodWhenCreated": "2024-10-02 23:08:42",
+		"project": "dutchVerbs",
+		"title": "enter examples for second batch of 30 verbs",
+		"description": "",
+		"rank": "4.85",
+		"status": "todo"
+	},
+	{
+		"dpodId": "Pgp9lv",
+		"dpodWhenCreated": "2024-10-02 23:08:42",
+		"project": "dutchVerbs",
+		"title": "enable ranking of examples",
+		"description": "",
+		"rank": "4.7",
+		"status": "todo"
+	},
+	{
+		"dpodId": "aaAjvd",
+		"dpodWhenCreated": "2024-10-02 23:08:42",
+		"project": "dutchVerbs",
+		"title": "enable marking examples learned or not",
+		"description": "",
+		"rank": "4.8",
+		"status": "todo"
+	},
+	{
+		"dpodId": "frP4HG",
+		"dpodWhenCreated": "2024-10-02 23:08:42",
+		"project": "dutchVerbs",
+		"title": "enable groups: know/show, weten/wijzen",
+		"description": "",
+		"rank": "4.72",
+		"status": "todo"
+	},
+	{
+		"dpodId": "2fSyIw",
+		"dpodWhenCreated": "2024-10-02 23:08:42",
+		"project": "dutchVerbs",
+		"title": "enable groups: wassen/zijn (was/was)",
+		"description": "",
+		"rank": "4.72",
+		"status": "todo"
+	},
+	{
+		"dpodId": "nDPxPC",
+		"dpodWhenCreated": "2024-10-02 23:08:42",
+		"project": "dutchVerbs",
+		"title": "enable groups: liggen/liegen",
+		"description": "",
+		"rank": "4.72",
+		"status": "todo"
+	},
+	{
+		"dpodId": "6O4jz7",
+		"dpodWhenCreated": "2024-10-02 23:08:42",
+		"project": "dutchVerbs",
+		"title": "deal with special verbs like gebeuren",
+		"description": "",
+		"rank": "4.52",
+		"status": "todo"
+	},
+	{
+		"dpodId": "Z1Lnox",
+		"dpodWhenCreated": "2024-10-02 23:08:42",
+		"project": "dutchVerbs",
+		"title": "put develop mode in env so it doesn't show on live site, and enable it to be locally toggeled",
+		"description": "",
+		"rank": "4.89",
+		"status": "todo"
+	},
+	{
+		"dpodId": "KCENP4",
+		"dpodWhenCreated": "2024-10-02 23:08:42",
+		"project": "dutchVerbs",
+		"title": "for each action, player receives points",
+		"description": "",
+		"rank": "4.91",
 		"status": "todo"
 	}
 ]

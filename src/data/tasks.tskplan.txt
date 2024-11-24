@@ -1,5 +1,6 @@
 - datapodCentral
 	- TASK: enable site to read from tasks.tskplan.txt page
+		- transfer all othres as well into this format
 - techlanglearn
 	- x TASK: make it quick and easy to create a new Youtube video file; 2024-11-23 22:09:00
 		- x as part of main script

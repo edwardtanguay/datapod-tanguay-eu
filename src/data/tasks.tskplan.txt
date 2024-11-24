@@ -1,0 +1,110 @@
+- datapodCentral
+	- TASK: enable site to read from tasks.tskplan.txt page
+- techlanglearn
+	- x TASK: make it quick and easy to create a new Youtube video file; 2024-11-23 22:09:00
+		- x as part of main script
+		- x look for all ">>create:" prefixes and collect these lines
+			- x make buildManager, list lines from courses.txt
+		- x remove create	
+		- x create template with variables @@language
+		- x save md file as mock
+		- x read in lines from file
+			- x build struct
+			- x platform and read in youtube
+			- x get lines
+				- x make fileIdCode property
+			- x only youtube
+			- x getContentFromFile
+		- x replace all variables with data
+		- x save file as .md
+		- x in tts file, mark all lines as "CREATED:skjfsdlfkjj"
+		- x label properties
+		- x put all CREATEDs at end		
+	- TASK: add linkedInLearning to videos for building		
+	- TASK: parse the tutorial md files into JSON and display
+	- TASK: parse list of tutorials in JSON to read and display with overview
+- fullStackPush
+	- try out all popular technology for this
+	- goal: be able to get a CRUD app up working on multiple servers with workflow
+- trilingualLittlePrince
+	- make useFlashcards hook and page "Flashcards"
+		- make useFlashcard hook
+		- call from SingleFlashcard
+- yearOfGo2025
+	- TASK: get GitHub library working
+- fullstackMernJwt
+	- desc: easy-peasy-template frontend, node/express/mongo backend, jwt, zod
+- fullstackMernClerk
+- datapod-for-react-2025
+	- as you type dpot.txt file, interactive items appear, editing them, changes the file
+	- grid from newTech2024
+	- code generation
+	- url state
+	- "the main project of 2025"
+- fullstackMernKinde
+- .. newTech2024
+	- x make showCase model testMessage model
+	- .. TASK: make full CRUD employees with easy-peasy and json-server
+		- x add ems to db
+		- x make employeeModel with loadEmployees
+			- x test with mock data
+		- x build frontend table to display mock data
+			- x put both in components
+			- x show mock employees
+		- x add ids
+		- x make is loading, spinner while loading (from flashcards)
+		- x show error if there is one
+		- x change to easy-peasy-hooks
+		- x make search with filtered
+			- x read from computed state
+			- x dataModel: add bulkSearchText	
+		- x sort column
+			- x sortField
+			- x sortDirection
+			- x if click twice, then change direction
+				- x each title clickable
+				- x if twice, change
+			- x hover underline
+				- x sort styles from tailwind to css
+			- x sort in computed
+				- x see if you can find a quick solution for "no sorting" (the original state)
+			- x extend to all relative field
+		- x cancel search button
+			- x icon
+			- x only if searching, hover, pointer
+		- x show ids link
+			- x make link and style
+			- x make functional	
+		- x after load, cursor in search
+			- x try autofocus
+		- x if no find, then show message
+		- x show how many of how many
+			- x style message
+			- x real numbers
+		
+		
+		- .. delete button
+			- x style, hover
+			- .. direct delete (press button and its gone)
+			- add "Are you sure?" step
+		
+			
+
+
+
+
+			
+		- test on Mac
+		- batch operations (e.g. delete), select with button
+		- make some kind of login to show different levels of access: anonymous, manager (only edit certain fields), admin (can change all, shows dpodid)
+		- validate and cleanse with Zod
+		- frontend
+			- different ways to show
+			
+			
+			- .. make useFlashcard
+				- make it flip, inside isShowing
+		
+	- make basic hook to display one flashcard instead
+		- random flash with button next
+	

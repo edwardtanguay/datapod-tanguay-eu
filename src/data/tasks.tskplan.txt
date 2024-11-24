@@ -5,7 +5,7 @@
 		- x as part of main script
 		- x look for all ">>create:" prefixes and collect these lines
 			- x make buildManager, list lines from courses.txt
-		- x remove create	
+		- x remove create
 		- x create template with variables @@language
 		- x save md file as mock
 		- x read in lines from file
@@ -19,8 +19,8 @@
 		- x save file as .md
 		- x in tts file, mark all lines as "CREATED:skjfsdlfkjj"
 		- x label properties
-		- x put all CREATEDs at end		
-	- TASK: add linkedInLearning to videos for building		
+		- x put all CREATEDs at end
+	- TASK: add linkedInLearning to videos for building
 	- TASK: parse the tutorial md files into JSON and display
 	- TASK: parse list of tutorials in JSON to read and display with overview
 - fullStackPush
@@ -57,7 +57,7 @@
 		- x change to easy-peasy-hooks
 		- x make search with filtered
 			- x read from computed state
-			- x dataModel: add bulkSearchText	
+			- x dataModel: add bulkSearchText
 		- x sort column
 			- x sortField
 			- x sortDirection
@@ -74,37 +74,36 @@
 			- x only if searching, hover, pointer
 		- x show ids link
 			- x make link and style
-			- x make functional	
+			- x make functional
 		- x after load, cursor in search
 			- x try autofocus
 		- x if no find, then show message
 		- x show how many of how many
 			- x style message
 			- x real numbers
-		
-		
+
+
 		- .. delete button
 			- x style, hover
 			- .. direct delete (press button and its gone)
 			- add "Are you sure?" step
-		
-			
 
 
 
 
-			
+
+
+
 		- test on Mac
 		- batch operations (e.g. delete), select with button
 		- make some kind of login to show different levels of access: anonymous, manager (only edit certain fields), admin (can change all, shows dpodid)
 		- validate and cleanse with Zod
 		- frontend
 			- different ways to show
-			
-			
+
+
 			- .. make useFlashcard
 				- make it flip, inside isShowing
-		
+
 	- make basic hook to display one flashcard instead
 		- random flash with button next
-	

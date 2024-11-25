@@ -1,3 +1,87 @@
+- flashcardCentral
+	- description:
+		- this will be one site that pulls in all flashcards from all various sites
+		- it will have a varied and robust process of testing
+		- main way of taking flashcards
+			- you have to type an answer and click submit
+			- all answers are listed with dates e.g.
+				- 2024-10-28 17:52:44 la resourco ser variable
+				- 2024-10-29 12:52:44 el resourco ser un variable
+				- 2024-11-07 14:52:44 el resourco ser una variable
+				- 2024-11-11 01:52:44 el recurso compartido ser una variable
+				- 2024-11-11 02:52:44 el recurso compartido puede ser una variable
+			- shows how many times you got it right and wrong
+			- rank their importance (0-5 decimal) with slider
+			- saved with easy-peasy persisted
+		- various kind of activities
+			- cloze
+			- C-Tests variations
+				http://www.c-test.de/deutsch/index.php?lang=de&content=beispiele&section=ctest
+			- match front/back, drag drop
+			- show the correct answer and all the other ones
+	- )) TASK: Make basic FlashcardTraining component
+		- .. make basic component with one flashcard, input box and button, display
+			- x basic component
+			- x show first flashcard
+			- x basic styling
+			- x add title to page
+			- x padding in both
+			- x dotted line
+			- x add "times got right: 0   times got wrong:0"
+			- x show random flashcard
+				- x store: getNextTestFlashcard
+			- x submit button loads new random flashcard
+			- x submit shows answer with "next" button
+				- x fix no notes
+				- x make enter click button
+			- x keep it going until correct
+				- x autofocus
+				- x show light colors if right/wrong
+				- x blank is white
+			- x count right wrong
+			- x make third status button when correct is "next flashcard"
+			- x move all state to store
+				- x testingStatus
+				- x numberWrong
+			- x show all wrongs up to right
+				- x record wrongs
+				- x show all final colors
+			- x make next flashcard work
+			
+			
+			- )) links to tatoeba for words 3 letters and more
+			- link to conjugate
+			- link to pronunciation
+			
+			- put cancel button on search
+			- make a total score 
+			- show similar flashcards
+			- when click on "try again" put cursor in box
+			- deal with extra information, e.g. si te fijas, como te estaba mencionando;note=fijar: to fasten, regular
+			- make this smartphone-friendly
+			- programmatically blue the right/wrong when they change
+			- handle //comparison
+		- random flashcard is shown
+		- user has to type in answer and click submit
+			- saved in localStorage under anonymous for now, e.g.
+				- "anonymous": 
+					- flashcards:
+						- longcodeksjdfsk001
+							- personalRank
+							- responses [datetime, answerText]
+						- longcodeksjdfsk002
+							- personalRank
+							- responses [datetime, answerText]
+						- longcodeksjdfsk003
+							- personalRank
+							- responses [datetime, answerText]							
+		- all past answers are shown 
+		- can change slider to mark personal rank: 1-5
+			- the likelihood of being selected is: 
+				- higher rank, higher likelihood
+				- more answers correct, lower likelihood
+- goProjects
+	- TASK: make epv (easy-peasy variable) which creates a new variable in the local easy-peasy store
 - datapodCentral
 	- TASK: enable site to read from tasks.tskplan.txt page
 		- transfer all othres as well into this format
@@ -24,6 +108,13 @@
 	- TASK: add linkedInLearning to videos for building
 	- TASK: parse the tutorial md files into JSON and display
 	- TASK: parse list of tutorials in JSON to read and display with overview
+- authenticationSolved
+	- TASK: Get Kinde working online on a React template site
+		- online with multiple Google accounts
+		- user icons work
+		- customize Kinde landing site for registration
+		- ,, two questions at Kinde Discord
+		- .. watching Kind videos
 - fullStackPush
 	- try out all popular technology for this
 	- goal: be able to get a CRUD app up working on multiple servers with workflow

@@ -1,4 +1,105 @@
-- flashcardCentral
+- PROJECT: bash-showcase
+	- TASK: set it up like go-showcase, take a course and get numerous examples
+- PROJECT: fastapi-showcase
+	- TASK: make official
+		- add readme with all instructions to set up virtual environment, how to start, etc.
+		- figure out how to make start scripts
+		- add to main site
+- PROJECT: newtech
+- trilingualLittlePrince
+	- x TASK: for each chapter, summary in three languages (feat-chapter-summaries)
+		- x find data: /src/data
+		- x read in this data into store object
+			- x find store object
+				- x make comment: difference between rawTexts and plainTexts
+			- x make mock summary and display it in place
+			- x make it three languages
+				- x nnn-fr, nnn-es, nnn-it
+			- x style mock text
+		- x read text into chapter object
+			- x create chapterSummaries object
+			- x add chapters to model with mock values
+		- x display it in three languages
+		- .. fieldset style with "summary"
+	- TASK: move import code of model to import module
+	- TASK: render in-text flashcards
+	- TASK: make sure spanish is es everywhere and not sp
+	- .. TASK: make a menu of chapters and put in URL text/3
+		- x display all chapters
+		- x make clickable to right chapter showing mock
+		- x make 1 be menu 1
+		- x style menu
+		- x make buttons dimmer if selected on computer
+			- x connect to actual chapter
+		- x move menu up
+		- x change "Text" to "Chapters"
+		- x show only current chapter
+	- x TASK: clean up and minimalize
+		- x make Welcome "Text"
+		- x hide flashcard/points for now
+		- x fix showing flashcards
+	- x TASK: Finish chapter 3
+	- x TASK: chapter 4
+	- .. TASK: chapter 5
+	- TASK: chapter 6
+	- TASK: make audio links to Google translate for each phrase
+	- TASK: produce audio
+		---------------------------------
+		from gtts import gTTS
+		import os
+
+		text = "Hola, ¿cómo estás?"
+		language = "es"  # Spanish language code
+
+		# Generate the audio file
+		speech = gTTS(text=text, lang=language, slow=False)
+		speech.save("output.mp3")
+
+		# Play the audio (optional, depends on your OS)
+		os.system("start output.mp3")  # For Windows		
+		---------------------------------
+- PROJECT: techlearn
+	- )) learn more Go
+- PROJECT: techlanglearn
+	- x TASK: convert all old formats to new
+		- x converts first ones
+		- x convert six new
+		- x convert six current
+	- )) TASK: Fix errors
+		- don't trim lines when recreating courses file
+		- if not correct number of parameters, fail gracefully
+	- )) TASK: reorganize Go backend directories
+	- TASK: parse the tutorial md files into JSON and display as overview and click to display on separate page individually
+	- x TASK: make it quick and easy to create a new Youtube video file; 2024-11-23 22:09:00
+		- x as part of main script
+		- x look for all ">>create:" prefixes and collect these lines- x make buildManager, list lines from courses.txt
+		- x remove create
+		- x create template with variables @@language
+		- x save md file as mock
+		- x read in lines from file
+			- x build struct
+			- x platform and read in youtube
+			- x get lines
+				- x make fileIdCode property
+			- x only youtube
+			- x getContentFromFile
+		- x replace all variables with data
+		- x save file as .md
+		- x in tts file, mark all lines as "CREATED:skjfsdlfkjj"
+		- x label properties
+		- x put all CREATEDs at end
+	- x TASK: add linkedInLearning to videos for building
+		- x enable creation of linkedinlearning videos
+		- x remake masterGoIdioms
+	- TASK: show related phrases (those that contain the same words)
+	- TASK: parse and display images
+- extendTech
+	- TASK: Learn how to set up a virtual environment for Python; $rank=4.91
+		- https://www.youtube.com/results?search_query=virtual+environment+python+visual+studio+code
+	- https://webflow.com/
+	- Haskell
+	- 
+- soflash
 	- description:
 		- this will be one site that pulls in all flashcards from all various sites
 		- it will have a varied and robust process of testing
@@ -19,8 +120,16 @@
 				http://www.c-test.de/deutsch/index.php?lang=de&content=beispiele&section=ctest
 			- match front/back, drag drop
 			- show the correct answer and all the other ones
-	- )) TASK: Make basic FlashcardTraining component
-		- .. make basic component with one flashcard, input box and button, display
+	- TASK: add groups
+		- mathTerms: add, sustract, divide, multiply
+		- daysOfWeeks
+		- monthsOfYear
+		- numbersTo10
+		- numbersTo100
+		- numbersGreater100
+		- tellingTime
+	- x TASK: Make basic FlashcardTraining component
+		- x make basic component with one flashcard, input box and button, display
 			- x basic component
 			- x show first flashcard
 			- x basic styling
@@ -47,20 +156,174 @@
 				- x record wrongs
 				- x show all final colors
 			- x make next flashcard work
+	- x TASK: implement user data tracking for FlashcardTraining component
+		- x make store elements needed
+		- x persist only that item
+			- x find where you used persist
+		- x show user info 
+			- x name upper right
+			- x icon next to name
+			- x score
+		- x connect current flashcard with user data
+			- x show idCode
+				- x fix: if blank, don't go to next
+				- x fix: trim answer
+			- x show user object for debugging
+				- x make config and devMode
+			- x make getFlashcardHistoryItem and get data
+			- x hook up right/wrong
+			- x record attempts
+				- x show attempts
+				- x show dates
+				- x flex and smaller date
+					- x fix the shadow values
+		- x add to total score 
+		- x solve shadow issue again
+	- x TASK: move to its own site: Flashcard Central and delete from trilingual site
+		- x build basic site
+			- x delete soflash first on Vercel
+			- x call it soflash
+			- x create from react-easy-peasy template: https://github.com/edwardtanguay/vite-react-menu-createbrowserrouter-easypeasy
+		- x welcome to Learn
+		- x name and picture
+		- x make all currently functionality available
+		- x make it usable on Smartphone
+			- x publish early to Vercel and develop every feature for mobile and web
+			- x get isSmartphone() function
+				- x put functions in mainModel
+				- x make computed variable
+				- x remake it with useEffect in app and state variable
+			- x quick: dev panel green/red 
+			- x head responsive
+				- x make responsiveSizeComputer and responsiveSizeSmartphone
+				- x computer top
+				- x smartphone top
+			- x make testing area responsive
+				- x smartphone: everything stacked 
+					- x showFront make two areas, one smartphone, one computer
+				- x input area stacked
+				- x smartphone text larger
+				- x force lower case on mobile
+				- x after-testing area ok (long phrases)
+					- x both both show only Nov 5 in table
+				- x when click button, focus
+				- x ver 			
+			- x when click button, put cursor in input box (for both smartphone and computer)
+		- x build in basic authorization
+			- x make local profile page
+				- x first make Guest User logged in
+					- x icon
+					- x when click on icon or name to profile
+			- x move all to authentication model	
+				- x fix map
+				- x fix <p>
+				- x fix next flashcard
+					- x state.testingStatus = "typingAnswer";
+					- make all private with _
+				- x check devmoe
+					- x scroll it
+				- x fix delete history
+				- x fix not updating
+					- x make incrementTotalScore
+				- x find all places it is lagging
+					- x setNextTestingFlashcard
+			- x make button on profile back to, i.e. just take out of if statement
+				- x make thunk for it: clearLocalStorage
+			- x fix quick: icon for guest as slate
+	- x TASK: make dev/main workflow
+		- x create main branch locally and push to GitHub
+		- x delete and recreate soflash from main, just changed setting at vercel
+		- x create soflash-dev.vercel.app and connect to dev
+		- .. do the workflow of a change from dev to main
+			- x change to "your flashcards"
+				- x didn't publish
+			- x make two icons on phone
+			- x test dev change on phone
+			- x change readme
+ 
+	- x TASK: make user profile
+		- x branch: feat-local-login-page
+		- x make config.siteIsLocal and do a test to check online
+		- x make local note: decided against		
+		- x make user dashboard on profile page
+			- x title "USER PROFILE"
+			- x reset
+			- x stats
+			- x number of flashcards available
+			- x number of flashcards taken so far
+		- x make placeholder register and login pages
+		- x figure out why no nav
+		- x push, test, publish: "added user profile"
+	- x TASK: fix: do not show devMode if online
+		- x fix it
+	- .. TASK: make a separate go package
+	
+	
+	- TASK: login page and make local only
+		- x make login text and form on profile page
+		- x hide login form when online
+		- x guest first
+		- x default: logged in as guest (anonymous)
+		- .. allow login for local user "edward" and "Hans Tester"
+			- with accessGroups
+				- edward: loggedInUsers, administrators
+				- hand: loggedInUsers
+			- saves localhost state to text file via Go API
+		- this version backend is Go
+			- this version is local and so has no tokens
+			- when user logs in, their user state object is loaded 
+			- when user logs out, localStorage is replaced with blank
+		- register works as well, new users are added
+			- currently the backend datasource will be a JSON file: db.json
+	- TASK: implement release versions in the repos
+		- learn how: https://www.youtube.com/results?search_query=github+releases+tutorial+
 			
+	- TASK: make import instead of direct reading, and multi-lingual
+		- enable local user to change admin fields, e.g. notes, etc.
+		
+		
+	- TASK: extend capabilities
+		- .. show stats
+			- 332 items available
+			- 4 deleted
+			- etc.
+			- you've tested yourself on 121 of 332 so far
+			- you've tested yourself on 31 items today
+			- you have marked 3 as learned
 			
-			- )) links to tatoeba for words 3 letters and more
-			- link to conjugate
-			- link to pronunciation
-			
-			- put cancel button on search
-			- make a total score 
-			- show similar flashcards
-			- when click on "try again" put cursor in box
-			- deal with extra information, e.g. si te fijas, como te estaba mencionando;note=fijar: to fasten, regular
-			- make this smartphone-friendly
-			- programmatically blue the right/wrong when they change
-			- handle //comparison
+		- rank slider
+		- links
+			- all large words: tatoeba
+			- google translate for audio
+			- conjugate
+		- buttons
+			- mark as learned 
+				- won't be tested on it again 
+				- will still appear in search
+				- will be added to list of learned items
+			- park 
+				- won't be tested on it again 
+				- will still appear in search
+			- delete
+				- won't be tested on it again 
+				- won't appear in search anymore
+			- question
+			- research
+			- note
+		- image upload for user
+	- TASK: Improve UX for FlashcardTraining component	
+		- )) links to tatoeba for words 3 letters and more
+		- link to conjugate
+		- link to pronunciation
+		
+		- put cancel button on search
+		- make a total score 
+		- show similar flashcards
+		- when click on "try again" put cursor in box
+		- deal with extra information, e.g. si te fijas, como te estaba mencionando;note=fijar: to fasten, regular
+		- make this smartphone-friendly
+		- programmatically blue the right/wrong when they change
+		- handle //comparison
 		- random flashcard is shown
 		- user has to type in answer and click submit
 			- saved in localStorage under anonymous for now, e.g.
@@ -80,34 +343,28 @@
 			- the likelihood of being selected is: 
 				- higher rank, higher likelihood
 				- more answers correct, lower likelihood
+	- TASK: implement Kinde for Google login
+	- TASK: implement Hetzner Node/Express/Mongo server to save state
+- expandDatapod
+	- TASK: set up some project with Ruby as backend language
+	- TASK: set up some project with Rust as backend language
+	- TASK: set up some project with C#/VSCode/.NETCore as backend language
+	- TASK: set up some project with Kotlin as backend language
+	- TASK: set up some project with Shell scripting as backend language
+	- TASK: set up some project with Haskell as backend language
+	- TASK: set up some project with Kotlin as backend language
+	- TASK: set up project with Phoenix/Elixir
 - goProjects
-	- TASK: make epv (easy-peasy variable) which creates a new variable in the local easy-peasy store
+	- TASK: make a dpodtools library to call in projects
+	- TASK: make epv (easy-peasy variable) which creates a new variables in the local easy-peasy store
 - datapodCentral
+	- TASK: switch to Python, e.g. Flask or just a script
 	- TASK: enable site to read from tasks.tskplan.txt page
 		- transfer all othres as well into this format
-- techlanglearn
-	- x TASK: make it quick and easy to create a new Youtube video file; 2024-11-23 22:09:00
-		- x as part of main script
-		- x look for all ">>create:" prefixes and collect these lines
-			- x make buildManager, list lines from courses.txt
-		- x remove create
-		- x create template with variables @@language
-		- x save md file as mock
-		- x read in lines from file
-			- x build struct
-			- x platform and read in youtube
-			- x get lines
-				- x make fileIdCode property
-			- x only youtube
-			- x getContentFromFile
-		- x replace all variables with data
-		- x save file as .md
-		- x in tts file, mark all lines as "CREATED:skjfsdlfkjj"
-		- x label properties
-		- x put all CREATEDs at end
-	- TASK: add linkedInLearning to videos for building
-	- TASK: parse the tutorial md files into JSON and display
-	- TASK: parse list of tutorials in JSON to read and display with overview
+- dailyTeachLearn
+	- mux
+	- jwt
+
 - authenticationSolved
 	- TASK: Get Kinde working online on a React template site
 		- online with multiple Google accounts
@@ -118,12 +375,9 @@
 - fullStackPush
 	- try out all popular technology for this
 	- goal: be able to get a CRUD app up working on multiple servers with workflow
-- trilingualLittlePrince
-	- make useFlashcards hook and page "Flashcards"
-		- make useFlashcard hook
-		- call from SingleFlashcard
 - yearOfGo2025
 	- TASK: get GitHub library working
+		- go through all go-showcase-examples and add all useful functions to this library
 - fullstackMernJwt
 	- desc: easy-peasy-template frontend, node/express/mongo backend, jwt, zod
 - fullstackMernClerk
@@ -134,7 +388,8 @@
 	- url state
 	- "the main project of 2025"
 - fullstackMernKinde
-- .. newTech2024
+- PROJECT: newTech2024
+	- a page that saves state with URL variables and easy-peasy
 	- x make showCase model testMessage model
 	- .. TASK: make full CRUD employees with easy-peasy and json-server
 		- x add ems to db

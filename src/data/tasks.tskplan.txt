@@ -5,6 +5,25 @@
 		- add readme with all instructions to set up virtual environment, how to start, etc.
 		- figure out how to make start scripts
 		- add to main site
+- PROJECT: jobwatch
+	- .. TASK: update cv
+		.. mock dci entry with pdf
+			- x update git
+			- x show local php site
+			- x update current
+				- x move database to cv and push to repo
+			
+			
+	- TASK: make base site (react/epredux)
+	- TASK: collect list of 20 teaching positions
+	- TASK: enable quick-application tracking
+	- x TASK: get application site up again
+		- x why page blank
+		- x get page to work
+			- x move through code and find error
+				- x find out why it lists zero
+		- x how did the two types of applications work
+		- x decision: abandon, reason: too many errors, too complicated
 - PROJECT: newtech
 - trilingualLittlePrince
 	- x TASK: for each chapter, summary in three languages (feat-chapter-summaries)

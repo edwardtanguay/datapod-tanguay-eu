@@ -1,0 +1,465 @@
+- x PROJECT: virtual-medical-site //private
+	- x NOTES
+		- base it on this: https://www.qunomedical.com/en
+		- mobile first
+	- x TASK: create from template and customize
+		- x from template to site
+		- x customize
+		- x read instructions again: https://mail.google.com/mail/u/0/#search/maritta.gunzel%40qunomedicalgmbh.teamtailor-mail.com/FMfcgzQZTChTTwFsZCHqgXkjwqkwzQzp
+	- x TASK: make basic pages and which shows all questions on questionaire page 
+		- x about page					
+		- x questionaire page (hidden), button from main page goes to it
+		- welcome page					
+			- x abbreviated how-it-works page: https://www.qunomedical.com/en/how-it-works
+			- x Button: [Get a Quote >] button
+				- x opens questionaire page
+	- x TASK: program Questionaire to process all types
+		- x load object with Zod/TS and show on questionaire page
+		- x analyze and clean up
+		- x finish first questionaire
+			- x make first question
+		- x mock out
+		- x save to after quiz
+			- x add timestamp to quick data
+			- x add idCode of questionaire
+			- x in db make "surveyResults": [] and route to save objects to it
+		- x show all again
+		- x move to next based on value
+			- x fix zero issue
+		- x next kind: cancel
+		- x devMode
+		- x cancel button text: Return to Menu
+		
+		- x do multipleChoice
+		- x thankYou
+		- x add status: "completed", "aborted"
+		- x as users answer questions, store intermediate responses on the backend.
+			- x both partial and final submissions 
+		- x graphic how far along in the questionaire they are 					
+		- x hover
+		- x show info as it is added 
+		- x info out
+		- x show default answer on range
+		- x flashcards out
+		- x do others with AI		
+	- x TASK: cleanup
+		- x build typescript
+		- x check every page
+		- x all comments out
+		- x fix spelling: questionaires
+		- x all flashcard code out
+		- x have cursor refactor for clean, minimal, and efficient code that minimizes the frontend footprint.
+	- x TASK: readme page
+		- create GitHub repo on my account, public
+		- animation showing the basic functionality
+		- responsive
+		- available routes
+		- embedded video with OBSStudio explaining it
+			- show
+		- Site builds (no TypeScript errors)
+		- next features
+			- if user enters site at questionare, then load only that questionaire, not all of them
+			- have reusable questions
+			- various question types
+				- multipleChoice
+				- number
+				- text
+				- boolean
+				- range
+				- likert
+				- info				
+		- built with template (list all, the one used highlighted)
+		- Your overall approach and design decisions.
+		- Instructions for setting up and running your application.
+		- How the schema is structured and how it can be extended or modified.
+		- A short demo or screenshots illustrating the application in action.			
+	- TASK: if time, then extra
+		- make appropriate API landing page with docu
+		- Admin
+			- show which questionaires have been answers and how far they are
+		- About
+			- animation
+		- GENERAL
+			- use images
+			- use Zod
+				- show example of bad data coming in
+- PROJECT: youtubeChannel
+	- x TASK: publish video: Create Python/SQLAlchemy script that fetches data via API and saves it in SQLite database, FINISHED: 2024-12-21 21:35:51
+		- x make howto
+		- xpublish video
+	- x TASK: familiarize yourself with tools
+		- x get familiar with capcut.com
+			- x try first
+			- .. make tutorial file
+				- x seems like it will save in Google Drive
+		- x get familiar with divinci resolve
+			- x difficult to download, form didn't work correctly
+		- x Screencastify Chrome plugin
+			- x works pretty well, but costs 120 euros a year
+		- x ok, after a short amount of research, I would say that my best free solution is:
+			- x production: OBSj
+				- x video: https://www.linkedin.com/learning/live-streaming-with-obs-open-broadcaster-software
+			- x post-production: capcut
+		- x doing video: https://www.linkedin.com/learning/live-streaming-with-obs-open-broadcaster-software
+- PROJECT: soflash	
+	- DESCRIPTION:
+		- this will be one site that pulls in all flashcards from all various sites
+		- this is my showcase application for full-stack, authentication, multiuser, full-responsive, testing, devops, etc.
+		- it will have a varied and robust process of testing
+		- main way of taking flashcards
+			- you have to type an answer and click submit
+			- all answers are listed with dates e.g.
+				- 2024-10-28 17:52:44 la resourco ser variable
+				- 2024-10-29 12:52:44 el resourco ser un variable
+				- 2024-11-07 14:52:44 el resourco ser una variable
+				- 2024-11-11 01:52:44 el recurso compartido ser una variable
+				- 2024-11-11 02:52:44 el recurso compartido puede ser una variable
+			- shows how many times you got it right and wrong
+			- rank their importance (0-5 decimal) with slider
+			- saved with easy-peasy persisted
+		- various kind of activities
+			- cloze
+			- C-Tests variations
+				http://www.c-test.de/deutsch/index.php?lang=de&content=beispiele&section=ctest
+			- match front/back, drag drop
+			- show the correct answer and all the other ones
+	- x TASK: make Manage Flashcards page
+		- x see where data is being loaded
+		- x copy techlanglearn to /dev as base
+		- x copy three items to /_dataImportSource/techlanglearn.flashcards.json
+		- x frontend: load flashcards with zod and raw/clean/item separation (get code from techlanglearn)
+			- x fix restructure
+			- x make Manage Flashcard page with how many flashcards
+				- x rename Manage Flashcards
+				- x show how many
+				- x add one and test
+				- x show error
+					- x mock error
+				- x show flashcards in table as manage
+					- x match up Flashcards
+					- x find out why only 2 of 5 fields
+					- x manually copy data 
+				- x add search
+					- x put in suuid, find in dpod
+					- x put back bulkSearch
+					- x box and can type
+				- x switch filtered from computed value to value
+					- x get search working again
+						- x clean
+					- x do button
+				- x move load to thunk
+				- x add number of items to each
+					- x mock number
+				- x do these
+					- most recent (10)
+					- Spanish (178)
+					- French (11)
+					- Italian (15)
+					- x set back
+					- x do suborder
+				- x make dropdown 
+					- x fix search to reset
+					- x style search
+				- x make one select "Search" and only have search appear (to the right) when it is selected
+	- x TASK: Make basic FlashcardTraining component
+		- x make basic component with one flashcard, input box and button, display
+			- x basic component
+			- x show first flashcard
+			- x basic styling
+			- x add title to page
+			- x padding in both
+			- x dotted line
+			- x add "times got right: 0   times got wrong:0"
+			- x show random flashcard
+				- x store: getNextTestFlashcard
+			- x submit button loads new random flashcard
+			- x submit shows answer with "next" button
+				- x fix no notes
+				- x make enter click button
+			- x keep it going until correct
+				- x autofocus
+				- x show light colors if right/wrong
+				- x blank is white
+			- x count right wrong
+			- x make third status button when correct is "next flashcard"
+			- x move all state to store
+				- x testingStatus
+				- x numberWrong
+			- x show all wrongs up to right
+				- x record wrongs
+				- x show all final colors
+			- x make next flashcard work
+	- x TASK: implement user data tracking for FlashcardTraining component
+		- x make store elements needed
+		- x persist only that item
+			- x find where you used persist
+		- x show user info 
+			- x name upper right
+			- x icon next to name
+			- x score
+		- x connect current flashcard with user data
+			- x show idCode
+				- x fix: if blank, don't go to next
+				- x fix: trim answer
+			- x show user object for debugging
+				- x make config and devMode
+			- x make getFlashcardHistoryItem and get data
+			- x hook up right/wrong
+			- x record attempts
+				- x show attempts
+				- x show dates
+				- x flex and smaller date
+					- x fix the shadow values
+		- x add to total score 
+		- x solve shadow issue again
+	- x TASK: move to its own site: Flashcard Central and delete from trilingual site
+		- x build basic site
+			- x delete soflash first on Vercel
+			- x call it soflash
+			- x create from react-easy-peasy template: https://github.com/edwardtanguay/vite-react-menu-createbrowserrouter-easypeasy
+		- x welcome to Learn
+		- x name and picture
+		- x make all currently functionality available
+		- x make it usable on Smartphone
+			- x publish early to Vercel and develop every feature for mobile and web
+			- x get isSmartphone() function
+				- x put functions in mainModel
+				- x make computed variable
+				- x remake it with useEffect in app and state variable
+			- x quick: dev panel green/red 
+			- x head responsive
+				- x make responsiveSizeComputer and responsiveSizeSmartphone
+				- x computer top
+				- x smartphone top
+			- x make testing area responsive
+				- x smartphone: everything stacked 
+					- x showFront make two areas, one smartphone, one computer
+				- x input area stacked
+				- x smartphone text larger
+				- x force lower case on mobile
+				- x after-testing area ok (long phrases)
+					- x both both show only Nov 5 in table
+				- x when click button, focus
+				- x ver 			
+			- x when click button, put cursor in input box (for both smartphone and computer)
+		- x build in basic authorization
+			- x make local profile page
+				- x first make Guest User logged in
+					- x icon
+					- x when click on icon or name to profile
+			- x move all to authentication model	
+				- x fix map
+				- x fix <p>
+				- x fix next flashcard
+					- x state.testingStatus = "typingAnswer";
+					- make all private with _
+				- x check devmoe
+					- x scroll it
+				- x fix delete history
+				- x fix not updating
+					- x make incrementTotalScore
+				- x find all places it is lagging
+					- x setNextTestingFlashcard
+			- x make button on profile back to, i.e. just take out of if statement
+				- x make thunk for it: clearLocalStorage
+			- x fix quick: icon for guest as slate
+	- x TASK: make dev/main workflow
+		- x create main branch locally and push to GitHub
+		- x delete and recreate soflash from main, just changed setting at vercel
+		- x create soflash-dev.vercel.app and connect to dev
+		- .. do the workflow of a change from dev to main
+			- x change to "your flashcards"
+				- x didn't publish
+			- x make two icons on phone
+			- x test dev change on phone
+			- x change readme
+ 
+	- x TASK: make user profile
+		- x branch: feat-local-login-page
+		- x make config.siteIsLocal and do a test to check online
+		- x make local note: decided against		
+		- x make user dashboard on profile page
+			- x title "USER PROFILE"
+			- x reset
+			- x stats
+			- x number of flashcards available
+			- x number of flashcards taken so far
+		- x make placeholder register and login pages
+		- x figure out why no nav
+		- x push, test, publish: "added user profile"
+	- x TASK: fix: do not show devMode if online
+		- x fix it
+- PROJECT: techlanglearn
+	- x TASK: enable user to enter answer until they get it right (user-tests-vocab)
+		- x make handleSubmitAnswer()
+		- s make green when correct
+	- x TASK: dropdown for topics // 2025-01-22 20:45:34
+		- x all | nextjs, ai, etc.
+			- x html element mock
+			- x make it show value
+			- x find where current values are: tutorials
+			- x make filteredTutorials and show those
+			- x fix sort
+			- x put mock variable define back in store
+			- x get other topics from datamodel
+			- x add ALL
+	- x TASK: flashcards 10/544
+	- x TASK: finish FastAPI course
+	- x TASK: up to "understanding OBS sources"
+	- x TASK: new python spanish course
+	- x TASK: learn till 13:00, python and go
+		- x howto: Create Python/SQLAlchemy script that fetches data via API and saves it in SQLite database
+			- x upload it
+	- x TASK: add Go courses
+		- go through this list: https://www.linkedin.com/learning/topics/go?durations=BETWEEN_30_TO_60_MIN~BETWEEN_1_TO_2_HOURS~BETWEEN_2_TO_3_HOURS~MORE_THAN_3_HOURS&entityType=COURSE&sortBy=RECENCY
+		- x start with: https://www.linkedin.com/learning/go-for-developers-practical-techniques-for-effective-coding/go-fundamentals-introduction
+	- x TASK: enhance flashcards (feat-enhanced-flashcards)
+		- x fix and understand full screen pd click
+		- x make sure all spanish is "es" and not "sp"
+			- x file names
+		- x home to stats
+		- x take out current flashcards on top
+		- x add fields to type
+		- x make mock flashcard file with two, one valid, one not
+		- x sourceFlashard type from zod, and clean/validate on import
+			- x list reason for invalid
+			- x show error on site
+				- x nav: mock error
+				- x mock error in state
+			- x validate language "it" or "es"
+			- x validate date
+		- x blur whole page	
+		- x go flashcard import: import language and whenCreated, extras
+			- x add language
+				- x first mock language
+			- x group blocks between spaces first and reimport
+				- x get one file to test
+		- x all flashcards again
+			- x fix error
+		- x flashcards page: newest first, simple toggle
+			- x toggle
+	- x TASK: parse the tutorial md files into JSON and display
+		- x first read file and make tutorials.json with list of titles
+			- x list out pathAndFileNames
+			- x get only the file name
+			- x create json file
+			- x read in all information
+				- x platform 
+				- x also get year, add one
+				- make year/rank numbers
+			- x fix creation to include year
+			- x display on page "tutorials" in table format
+				- x only title mock page
+				- x mock style sheet
+				- x build table
+			- x year/rank numbers
+			- x sort by rank
+			- x add status and display
+			- x fix year
+			- x add category: fringe, current, retro (on frontend)
+				- x do mock first
+				- x put topics in config with description
+			- x start in order
+			- x description
+			- x length
+			- x update all years, status
+	- x TASK: convert all old formats to new
+		- x converts first ones
+		- x convert six new
+		- x convert six current
+	- x TASK: make it quick and easy to create a new Youtube video file; 2024-11-23 22:09:00
+		- x as part of main script
+		- x look for all ">>create:" prefixes and collect these lines- x make buildManager, list lines from courses.txt
+		- x remove create
+		- x create template with variables @@language
+		- x save md file as mock
+		- x read in lines from file
+			- x build struct
+			- x platform and read in youtube
+			- x get lines
+				- x make fileIdCode property
+			- x only youtube
+			- x getContentFromFile
+		- x replace all variables with data
+		- x save file as .md
+		- x in tts file, mark all lines as "CREATED:skjfsdlfkjj"
+		- x label properties
+		- x put all CREATEDs at end
+	- x TASK: add linkedInLearning to videos for building
+		- x enable creation of linkedinlearning videos
+		- x remake masterGoIdioms
+
+- PROJECT: trilingualLittlePrince
+	- x TASK: allow inline flashcards in summary
+		- x find spot
+		- x take raw off
+		- x change type to incorporate objects
+			- x resolve rawChapter
+		- x make new branch
+		- x bookchapters new type
+			- x Summaries to Summary
+	- x TASK: make inline flashcards /$finished=2024-12-16 10:45:22
+		- x create and test parsing function
+		- x add to smartBook
+		- x display with not in parentheses, in component
+		- x send mode through: raw, plain, object
+		- x reparse it
+			- x brackets first
+		- x fix: why all french
+		- x fix brackets with prefix or suffix
+			- x make simpler test
+		- x resolve prefixsuffix around dynamic
+		- x resolve all map key warnings
+		- x solve click
+			- x style for isShowing
+			- x mock click alert
+			- x onclick change isOpen
+				- x make action to change all 
+			- x fix space now
+		- x fix: http://localhost:3663/chapters/images/users/edwardtanguay.jpg
+	- x TASK: for each chapter, summary in three languages (feat-chapter-summaries)
+		- x find data: /src/data
+		- x read in this data into store object
+			- x find store object
+				- x make comment: difference between rawTexts and plainTexts
+			- x make mock summary and display it in place
+			- x make it three languages
+				- x nnn-fr, nnn-es, nnn-it
+			- x style mock text
+		- x read text into chapter object
+			- x create chapterSummaries object
+			- x add chapters to model with mock values
+		- x display it in three languages
+		- .. fieldset style with "summary"
+	- x TASK: make a menu of chapters and put in URL text/3
+		- x display all chapters
+		- x make clickable to right chapter showing mock
+		- x make 1 be menu 1
+		- x style menu
+		- x make buttons dimmer if selected on computer
+			- x connect to actual chapter
+		- x move menu up
+		- x change "Text" to "Chapters"
+		- x show only current chapter
+	- x TASK: clean up and minimalize
+		- x make Welcome "Text"
+		- x hide flashcard/points for now
+		- x fix showing flashcards
+	- x TASK: Finish chapter 3
+	- x TASK: chapter 4
+	- TASK: make audio links to Google translate for each phrase
+	- TASK: produce audio
+		---------------------------------
+		from gtts import gTTS
+		import os
+
+		text = "Hola, ¿cómo estás?"
+		language = "es"  # Spanish language code
+
+		# Generate the audio file
+		speech = gTTS(text=text, lang=language, slow=False)
+		speech.save("output.mp3")
+
+		# Play the audio (optional, depends on your OS)
+		os.system("start output.mp3")  # For Windows		
+		---------------------------------

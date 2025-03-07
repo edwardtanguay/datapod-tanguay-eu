@@ -1,66 +1,546 @@
-- PROJECT: bash-showcase
-	- TASK: set it up like go-showcase, take a course and get numerous examples
-- PROJECT: fastapi-showcase
-	- TASK: make official
-		- add readme with all instructions to set up virtual environment, how to start, etc.
-		- figure out how to make start scripts
-		- add to main site
-- PROJECT: jobwatch
-	- .. TASK: update cv
-		.. mock dci entry with pdf
-			- x update git
-			- x show local php site
-			- x update current
-				- x move database to cv and push to repo
+
+- .. PROJECT: datapod-for-nextjs
+	- .. TASK: set up as datapod
+		- x create with repo: datapod-for-nextjs
+			- x clean site with simple name
+			- x also clean readme
+			- x repo and site
+			- x fix dark mode
+			- x get control of styles on mobile
+		- .. add to datapod central site
+	- TASK: copy all functionality from tanguay-eu
+		- page navigation
+	- TASK: make responsive
+	- TASK: make CRUD page
+	- TASK: work through next.js course and add functionality
+- PROJECT: run-site
+	- INFO
+		- https://www.runningclubsberlin.de/clubs/berlin-social-runners
+		- https://www.meetup.com/founders-running-club-berlin
+- PROJECT: elastic-search-fullstack
+	- info
+		- connect to elasticsearch
+		- retrieve media records from the existing Elasticsearch index
+		- perform keyword-based search or filtering on fields such as title, description, or other metadata
+		- handle unstructured or missing fields gracefully
+		- in Node/Express, build an API that gets data from the Elasticsearch datasource when an endpoint is accessed
+		- make React site to display and allow user to filter media results
+	- x TASK: make folder and backend API to get the information from Elasticsearch
+	- x TASK: contact company for more time
+	- x TASK: get Trae set up and running
+		- x see how it runs first
+			- x http://localhost:5000/api/indexes2
+			- x http://localhost:5000/api/index/imago_v2
+			- x http://localhost:5000/api/index/imago
+		- x INFO: read instructions again
+			- x check image: 
+				- https://www.imago-images.de/bild/st/0258999077/s.jpg
+				- DB values are normally "st"/"sp" in ES docs
+				- For the url media id needs to be 10 chars long, padded with zeroes at the start of the string if too short.
+			- x create todos from instructions: https://imago-images.notion.site/Coding-Challenge-C3-19288a8564ed807d82b2dd6c630d6d12
+				- keyword-based search/filtering on title, description, etc.
+				- handle unstructured or missing fields gracefully (Zod)
+				- propose any transformations to improve searchability or data quality
+				- build a frontend to display and filter media results
+				- identify potential issue: data inconsistencies, performance bottlenecks, security concerns), propose a thoughtful solution.
+				- Discuss how your solution would handle large volumes of data, keep your solution maintainable as more external providers and media items come online
+				- Include basic monitoring or logging considerations.
+				- Write tests that reflect your normal coding practices
+			- x solution:
+				- public repo
+					- README with 
+						- infos
+							- https://github.com/edwardtanguay/elastic-search-fullstack
+							- used this template: https://github.com/edwardtanguay/vite-react-node-express-lowdb-json-fullstack
+						- all above answer questions
+						- instructions on how to run it
+				- submit your solution as a PDF
+					- link to public repository
+					- basica information from README
+		- x set up frontend/backend site
+		- x test-run Trae
+			- x create page
+	- x TASK: set up as full stack site
+	- x TASK: get new version of Trae
+		- x download
+		- x test deepseek with remove page
+	- .. TASK: display the data from backend on frontend
+		- x move from test to backend: api/images\
+		- put data in .env file
+		
+		
+- PROJECT: fullstack-mern-site
+	- info
+		- continue: https://github.com/edwardtanguay/two-factor-login-with-twilio
+	- TASK: redefine readme for new project; 15m
+- PROJECT: useful links
+	- user
+		- https://www.openstreetmap.org
+- PROJECT: python tools
+	- TASK: Tika (PDFs)
+- PROJECT: techitems
+- PROJECT: ai-tech
+	- TASK: add AI section to mind map: https://coggle.it/diagram/ZE-oXwAjwnrf-l8P/t/web-development
+- PROJECT: timetracker
+	- INFO
+		- parse the current time tracking text
+		- *** make a dashboard that keeps track of daily: 5 hours build, 5 hours learn
+		- put it online and make it secure
+- PROJECT: lowcode
+	- TASK: foray on learning notion
+- PROJECT: transatlantic-accent
+	- characteristics
+		1. non-rhoticity: drop all final Rs, not [FAH-ther] but [FAH-tha]
+		2. non-verlarized R and L, i.e. speak with a light R and L instead of a dark R and L: move these two sounds from the back of your throat (Texan) to the front of the lips (British)
+		3. drop alveolar tap: 
+			- butter, not [BUDDER] but [BUH-tah]
+			- created, not [kree-AY-ded] but [kree-AY-ted]
+			- setup, not [SEH-dup] but [SETT-upp]
+			- got it, not [GAWD-it]; [GOTT-itt]
+			- in the city
+			- water
+			- the former and the latter
+			- what is the matter
+			- it's clear what you're saying, not [wha-chur] but [what-yoo-ah]
+			- little did I know
+			- it was little
+		4. drop consonant syllabification
+			- button, not [BUH-n] but [BUTT-en]
+			- certain
+			- kitten
+			- mountain
+			- shouldn't, not [SHU-nt] but [SHUD-ent]
+		4. employ palatalization of the "u": duty is not [DOO-dee] but [DYOO-tee]
+		5. drop assibilition: education is not [eh-joo-KAY-shun] but [ehd-yoo-KAY-shun]
+		6. vowels are pronounced clearly, openly and deliberately: noon not [noon] but [noooon]
+		7. enunciate consonants: pronounce all Ts, Bs, Ps, etc. clearly and distinctly, and non-voiced consonants crisply
+		8. in general, always speak deliberately and thoughtfully, which decelerates your speech but puts you in control
+		9. not British
+			- "and" is flat
+		- you don't have to avoid or extend contractions
+			- don't and can't is ok
+		- practice
+			- that shouldn't matter at all
+			- pour all the water in the barrel
+			- it's certain that we're going to go
+			- it's our duty to meet at noon on Tuesday
+			- it's unopinionated
+			- but that shouldn't matter
+			- they haven't gotten back yet
+			- out of it
 			
+		- drop all ums, ahs, ya knows, and likes
 			
-	- TASK: make base site (react/epredux)
-	- TASK: collect list of 20 teaching positions
-	- TASK: enable quick-application tracking
-	- x TASK: get application site up again
-		- x why page blank
-		- x get page to work
-			- x move through code and find error
-				- x find out why it lists zero
-		- x how did the two types of applications work
-		- x decision: abandon, reason: too many errors, too complicated
+
+- PROJECT: vuejs-csharp-fullstack
+	- TASK: add routes
+	- TASK: make menu responsive
+	- TASK: publish at Hetzner
+- PROJECT: two-factor-login-with-twilio //private
+	- x TASK: organize project
+		- INFO
+			- https://blingcard.notion.site/Backend-engineer-challenge-ca0e1c56efe14ca4b5786d784210e4ff
+		- x develop with branches
+	- x TASK: setup site with name based on template //feat-setup-site
+		- INFO
+			- https://github.com/edwardtanguay/vite-react-node-api-one-directory
+		- x minimize vulnerabilities
+	- x TASK: convert site from flashcards to users //feat-flashcards-to-users
+		- x detele info page
+		- x make db.json: name, email, mobile, login, password
+		- x create GET /api/users route
+			- x test with postman flashcards
+		- x show names on frontend
+		- x remove flashcards
+			- x remove from frontend
+			- x remove from backend
+		- x change name of app and all extras off
+		- x fix responsive title
+		- x create content on about page
+		- x change style
+	- x TASK: enable user registration, check bcrypted //feat-user-registration
+		- x POST /api/register-user
+			- x first as plain password
+		- x convert password to bcrypt
+			- x make newUser, databaseUser, user with password
+			- x add the passwords to README
+		- x fix get users so they get frontendUsers
+		- x convert FrontendUser to user
+	- x TASK: add Zod protection //feat-add-zod-protect
+		- x change all to mockcompany.de
+		- x add Zod protection
+		- x defined with zod more precisely
+	- x TASK: frontend register form //feat-add-frontend-registration-form
+		- x PageRegister.tsx
+		- x show errors
+		- x show examples
+		- x put back in easy-peasy
+			- x fix error handling
+		- x make it update immediately
+		- x error if login already exists
+	- .. TASK: status update //minor-status-update
+		- x about page
+		- .. write email
+	- TASK: enable login with login/password
+	- TASK: enable JWT //feat-enable-jwt
+	- TASK: readme
+		- most proud: explicit names for user
+	- write and postpone
+			
+- PROJECT: hetzner
+	- TASK: cancel second machine
+		- move over all sites
+	- TASK: install PHP on Hetzner
+		- 
+- PROJECT: reactskills
+	- TASK: Howto with Formbricks: https://formbricks.com
+	
+
+	
 - PROJECT: newtech
-- trilingualLittlePrince
-	- x TASK: for each chapter, summary in three languages (feat-chapter-summaries)
-		- x find data: /src/data
-		- x read in this data into store object
-			- x find store object
-				- x make comment: difference between rawTexts and plainTexts
-			- x make mock summary and display it in place
-			- x make it three languages
-				- x nnn-fr, nnn-es, nnn-it
-			- x style mock text
-		- x read text into chapter object
-			- x create chapterSummaries object
-			- x add chapters to model with mock values
-		- x display it in three languages
-		- .. fieldset style with "summary"
-	- TASK: move import code of model to import module
-	- TASK: render in-text flashcards
+	- TASK: Howto with Monorepo
+	- TASK: Howto with TRPC
+	- TASK: JavaScript advanced: javascript-showcase
+		- Map, Set, generator functions
+		- generator functions with API
+		- closures
+		- proxies, reflect
+		- web workers
+		- various uses of promises
+	- HABIT: Go quiz
+	- HABIT: Pythong quiz
+	- TASK: https://refine.dev/
+		- developers can quickly scaffold applications with CRUD functionality, authentication, access control, and real-time updates
+	- TASK: Howto with Tailwind 4.0
+	- TASK: Howto with Shadcn
+	- TASK: Howto with Kysely Query Builder 
+	- TASK: Howto with React-Admin
+	- TASK: Backend with Nest.js
+	- TASK: Backend with TypeORM
+	- TASK: Howto with Formbricks
+	- TASK: Howto with Slim (PHP)
+	- TASK: Howto with v7 Router mit react19
+	- TASK: Howto with https://platform.openai.com/docs/assistants/overview
+	- TASK: Howto with Java/Vaadin
+	- TASK: https://howlerjs.com
+	- TASK: https://pixijs.com
+	
+	
+
+- PROJECT: python
+	- .. TASK: do all quizzes here: https://realpython.com/quizzes
+		- x https://realpython.com/quizzes/python-formatted-output
+		- x https://realpython.com/quizzes/python-web-scraping-practical-introduction
+		- x https://realpython.com/quizzes/python-async-iterators
+		- x https://realpython.com/quizzes/async-io-python
+		- x https://realpython.com/quizzes/python-data-types
+		- x https://realpython.com/quizzes/python-input-output
+		- x https://realpython.com/quizzes/beautiful-soup-web-scraper-python
+		- .. https://realpython.com/quizzes/beautiful-soup-python-web-scraper
+		
+- PROJECT: php-skills
+	- TASK: do a howto to set up Slim PHP
+		- https://www.slimframework.com/
+		- created 2010
+- PROJECT: css/frontend
+	- TASK: Tailwind 4.0 https://www.youtube.com/watch?v=mXgQDKcTtJ4 
+	- TASK: The newest Shadcn
+
+- PROJECT: nodered //priv
+	- x find mail and read
+	- INFO
+		- YouTube channel of Node-RED, useful
+			- https://www.youtube.com/@Node-RED/featured			
+		- get account at Hubspot
+			- get API key: https://www.youtube.com/watch?v=zgeotT93P3w
+
+		- coding challenge
+			- https://mail.google.com/mail/u/0/#search/omnipeak+/FMfcgzQZSjfNxbtnkKKpZhrDpFhxFVjr?projector=1&messagePartId=0.1
+		- flows_cred.json
+			---------------------------------------
+			{
+				"$": "3cbbcbc0d5c7bd0db6ce6abafa3c6e6dFuD24SVaUAWczu4foJj9ChQ9p5B8qMkperrX4kQOz18QqZjAeXVWw9mtx9B+idGAWpEx1zMSwiRmUpFv/k7V1GBBdPb1P7W4v1aMsHnywZof1X1uAf2A1UtcJHVaKMTovt+wRvzF"
+			}			
+			---------------------------------------
+	- .. TASK: finish coding challenge
+		- x create Node-RED project
+			- x figure out difference between project and flow
+			- x use a HTTP request node	
+				- x read: https://edwardtanguay.vercel.app/share/skills.json
+			- x add contact info to Hubspot
+			- x via HubSpot-API get contact info
+			- x API-key and private app access token
+			- x don't check in flows_cred.json
+		- transform
+			- x use function nodes to tranform and filter
+				- x filter: only contacts with emails
+				- x transform: if no phone number status then "(no phone number)"
+		- x mail
+			- x install node-red-node-email
+			- x send e-mails based on filtered contact deals
+			- x build a catch node to log sending errors 
+			- x send structured email with subject
+			- x save errors in log file
+		- .. all videos
+		- )) error handling and logging
+			- catch errors when connecting to Hubspot (bad api key)
+			- save to connection_errors.log (same as email log)
+		- )) timed execution
+			- implement an inject node which runs once a day
+			- but make sure it only sends mails when data has changed, i.e. don't send a mail twice 
+		- )) file persistence
+			- save a file with collection of emails processed
+			- use this information to not send any doubles
+		- // subflow 
+		- x structure
+			- // use subflows for repeated tasks, e.g. email sending
+			- x create readme file
+			- x clean code
+			- x accuracy
+			- x comments, readme
+			- x don't show Password/api-key in clear text
+			- make sure mails are received
+		- submission
+			- save project in GitHub repository
+				- (or as a Node-RED flow file)
+				- make GIF showing how to use it
+				- add description
+				- mail
+					- share repository
+					- ask what email should be sent to share
+			- include readme
+				- how to start
+				- where to save the hubspot-api-key (Node-RED credentials)
+				- how to configure email parameters (SMTP, recipient)
+				- which flows/subflows exist and which tasks they fulfill
+				- steps not completed yet
+					- subflows
+				- video showing how it works
+				- to show logging: change email to edwardappmailer234gmail.com
+				- flow_cred.json put in .gitignore so it is not in repo
+				- questions:
+					- better dev experience, e.g. Vim for the editor, or some way to code in VSCode
+					- can you use TypeScript
+					- how best to integrate with microservices
+					- how is testing handled in Node RED
+					- what percentage of the complete solution is Node-RED
+	- tutorials
+		- 2017: https://www.youtube.com/watch?v=3AR432bguOY
+		- SAP and Node-RED: https://www.linkedin.com/learning/build-sap-integration-with-node-red/meet-your-instructor?resume=false
+- PROJECT: aisite
+	- services
+		- openrouter.ai
+- PROJECT: cdchallassecor //priv
+	- x 2025-01-14 09:00:00 started
+	- x python job record
+	- x wait for response to React and 1-test question
+	- .. do coding challenge tonight: Zod, etc.
+		- read email and site again
+			- x goal
+				- x Aufbau Deines Codes 
+				- x Deiner Herangehensweise an Problemstellungen 
+			- x rules
+				- x Du in der Wahl von Frameworks und Bibliotheken frei
+				- x innerhalb 1 Woche bis zum 22.01.2025
+				- x Deinen tatsächlichen Kenntnissen und Erfahrungen entspricht 
+				- x zufrieden mit deinem Ergebnis 
+			- x turn it in
+				- x forkst Du Dir das Assessment
+				- x bearbeitest es im *privaten* Repository 
+				- x stellst uns per E-Mail an Esra den Link nach Fertigstellung zur Verfügung
+					- x lade matthias.korf@assecor.de zu deinem privaten Repository auf GitHub ein
+			- .. todo
+				- x title
+				- x all pages
+					- x people
+					- x films
+					- x starships
+					- x vehicles
+					- x species
+					- x planets
+				- x load all
+					- x people
+						- x load from API
+							- x make dataModel with mock promise and two
+						- x make page for singles
+							- x show menu too
+						- x make responsive
+				- .. do rest of item pages
+					- x films
+					- x find all that have images
+							- NO starships
+							- NO vehicles
+							- YES species
+							- YES planets
+					- x species
+						- x https://starwars-visualguide.com/assets/img/species/2.jpg
+					- x starships out
+					- x vehicles out
+					- x planets
+						- https://starwars-visualguide.com/assets/img/planets/2.jpg
+						- x deal with non pictures
+							- x make hasImage
+							- x send in styles
+							- x make no-image planet graphic: no-image-planet.jpg
+							- x fix broken link for single
+				- x add Api TypeScript type
+					- x persons
+					- x other three
+				- x add all connections between items and display
+					- x persons, save film ids
+					- x make populateItems
+					- x display films 
+					- x persons species
+					- x small titles
+					- x films
+						- x planets
+						- x species
+					- x title in class and larger
+					- x species
+						- x people
+						- x films
+					- x planets
+						- x residents
+						- x films
+				- x count and show the number of API calls
+					- x make persistManager to save fetchCount
+				- x info page
+					- x make page
+					- x intro
+					- x show fetchCount
+					- x reset
+				- x persist and only load once
+					- x flex row
+					- x make caching state variable
+					- x info site: change cache
+						- x change until now cyclic error
+					- x when we say no caching, keep it no caching
+				- x totals in menu
+					- x check blanking
+				- x quick loading when actually loading
+					- x add animation
+				- x only persist part
+					- x take off test
+				- x make loading spinner
+				- x make delete items not remove localstroage
+				- x show text based on if records there or not
+				- x make default caching on
+				- x mobile 100%
+					- x buttons
+					- x loading
+				- x put online as well
+					- x at: starwarsapi
+						-  x fix typescript errors
+					- x check mobile on screen and phone
+					- x check mobile again, e.g. info page
+				- x check console log for errors
+				- x check code: clean, minify
+				- x write readme
+					- x GIF of site demo
+					- x potential refactor: make the load functions generic
+				- x fix 34
+				- .. postInitialize
+				- .. map
+			- extras
+				- easy-peasy
+				- Tailwind
+				- Zod
+			- notes
+				- For security reasons, you cannot change the visibility of a fork. 
+					- so created from a template
+					- made it private
+				- name: assecor-assessment-frontend
+		
+	- TASK: take test: https://mail.google.com/mail/u/0/#inbox/FMfcgzQZSjbvRRXmtfFHgmTzpTbGTRQZ
+- PROJECT: aiPageOnTechSite
+	- project "Know Your Overlord"
+	- AI is more than helpful 24/7 to help you learn about it
+	- terms: Pinecone, Weaviate, LlamaIndex, GptIndex, LLM, LangChain
+- PROJECT: youtubechannel
+	- NOTE: before every video
+		- have list of words to practice, e.g. data (not [DA-da] but [DA-ta])
+		- have a list of what you are doing and explicitly write the step down before you do it
+	- TASK: Easy-Peasy Redux basics
+		- https://github.com/edwardtanguay/easypeasy-redux-showcase
+	- TASK: Go backend, SvelteKit 5 frontend admin app
+		- then use this to create gj25
+	- TASK: Star Wars site
+	- TASK: make descriptions list the points that one learns
+	- TASK: Go API accessing online drizzle (Render or MongoDBAtlas)
+	- TASK: Watch this https://www.youtube.com/watch?v=Qe6Vzk3juJ0 and do an example of every CSS feature
+- PROJECT: personal site
+	- all recent runs including 2024-12-22	
+		- x last run onto disk
+- PROJECT: newtech
+	- howto: https://nodered.org
+	- howto: nestjs
+		- https://www.youtube.com/watch?v=GHTA143_b-s
+	- howto: the @ in vite.config, see mstrom
+- PROJECT: godeveloper
+	- TASK: howto/video: write go script that parses application process
+- .. PROJECT: techsite
+	- .. TASK: video: React CRUD frontend with easy-peasy Redux state management and Python FastAPI backend
+		- x make howto
+			- x find out why 0
+			- x allow for all frontends
+			- x when click alert test
+			- x show hand on cursor
+		- .. publish video
+			- .. setup and test
+	- TASK: video: Strongly typed object-oriented programming in Python using mypy
+		- use game players, see 038-simple-class.py
+	- TASK: video: Go script to copy files for howtos/forays
+	- TASK: Text-to-mp3 voice generation with Python and GTTS	
+	- TASK: start Git video playlist; rank=4.988
+		- make videos that are 10-12 minutes each with a topic
+	- TASK: site that tracks which videos are planned, being worked on, etc. 
+		- ability for users to add suggestions
+- PROJECT: techlanglearn
+		
+		
+	- TASK: add labels to topics and dropdown for topics
+	- TASK: other Flask videos 
+	- TASK: parse the extra text such as pr and conj
+		- put these in a function or class so that it can be used in other applications
+	- TASK: record how to say letters for Italian, French, Spanish
+	- TASK: make flashcard page more useful
+		- search, open all
+		- make user type, and compare it
+	- TASK: on page Home, show which tutorials one watched each day
+	- TASK: Add progress bar and search box
+		- show progress: percentage of course finished
+		- search box
+	- TASK: create rest of tutorial files
+	- TASK: crunch French verbs, make site for this
+	- TASK: new column: when last watched, make sortable
+	- TASK: pass full Zod errors to front, not just number
+	- TASK: add YouTube and LinkedIn icons
+		- https://icon-sets.iconify.design/?query=youtube
+	- TASK: make frontend responsive and put online
+	- TASK: add all new tutorials and display
+		- add tags
+			- extend: might use in a job
+				- Monorepos, Kafka, Ruby on Rails
+			- fringe: probably won't use in a job but interesting
+				- Julia, Pheonix
+			- devops
+				- Kafka, Ansible, Terraform, Kubernetes
+			- currentTech
+				- Docker, Go, GraphQL
+			- retro: tech that reminds me of old times
+				- Perl, VBA
+		- display on "Tutorials" page under
+			- Not Yet Started
+	- TASK: display contents of tutorials, toggle open/closed
+	- TASK: parse and display images
+- .. PROJECT: trilingualLittlePrince
+	- .. TASK: finish chapter 5
+	- )) TASK: chapter 6
 	- TASK: make sure spanish is es everywhere and not sp
-	- .. TASK: make a menu of chapters and put in URL text/3
-		- x display all chapters
-		- x make clickable to right chapter showing mock
-		- x make 1 be menu 1
-		- x style menu
-		- x make buttons dimmer if selected on computer
-			- x connect to actual chapter
-		- x move menu up
-		- x change "Text" to "Chapters"
-		- x show only current chapter
-	- x TASK: clean up and minimalize
-		- x make Welcome "Text"
-		- x hide flashcard/points for now
-		- x fix showing flashcards
-	- x TASK: Finish chapter 3
-	- x TASK: chapter 4
-	- .. TASK: chapter 5
-	- TASK: chapter 6
+	- TASK: show conjugated verbs in inline flashcards like: conj=risvegliare
+	- TASK: parse multiple notes
+		- e.g. [cominciano;they begin; pr=co-meen-CHAH-noh]
+	- TASK: enable chapters to shown only with chapter summaries
 	- TASK: make audio links to Google translate for each phrase
 	- TASK: produce audio
 		---------------------------------
@@ -77,207 +557,54 @@
 		# Play the audio (optional, depends on your OS)
 		os.system("start output.mp3")  # For Windows		
 		---------------------------------
-- PROJECT: techlearn
-	- )) learn more Go
-- PROJECT: techlanglearn
-	- x TASK: convert all old formats to new
-		- x converts first ones
-		- x convert six new
-		- x convert six current
-	- )) TASK: Fix errors
-		- don't trim lines when recreating courses file
-		- if not correct number of parameters, fail gracefully
-	- )) TASK: reorganize Go backend directories
-	- TASK: parse the tutorial md files into JSON and display as overview and click to display on separate page individually
-	- x TASK: make it quick and easy to create a new Youtube video file; 2024-11-23 22:09:00
-		- x as part of main script
-		- x look for all ">>create:" prefixes and collect these lines- x make buildManager, list lines from courses.txt
-		- x remove create
-		- x create template with variables @@language
-		- x save md file as mock
-		- x read in lines from file
-			- x build struct
-			- x platform and read in youtube
-			- x get lines
-				- x make fileIdCode property
-			- x only youtube
-			- x getContentFromFile
-		- x replace all variables with data
-		- x save file as .md
-		- x in tts file, mark all lines as "CREATED:skjfsdlfkjj"
-		- x label properties
-		- x put all CREATEDs at end
-	- x TASK: add linkedInLearning to videos for building
-		- x enable creation of linkedinlearning videos
-		- x remake masterGoIdioms
-	- TASK: show related phrases (those that contain the same words)
-	- TASK: parse and display images
-- extendTech
-	- TASK: Learn how to set up a virtual environment for Python; $rank=4.91
-		- https://www.youtube.com/results?search_query=virtual+environment+python+visual+studio+code
-	- https://webflow.com/
-	- Haskell
-	- 
-- soflash
-	- description:
-		- this will be one site that pulls in all flashcards from all various sites
-		- it will have a varied and robust process of testing
-		- main way of taking flashcards
-			- you have to type an answer and click submit
-			- all answers are listed with dates e.g.
-				- 2024-10-28 17:52:44 la resourco ser variable
-				- 2024-10-29 12:52:44 el resourco ser un variable
-				- 2024-11-07 14:52:44 el resourco ser una variable
-				- 2024-11-11 01:52:44 el recurso compartido ser una variable
-				- 2024-11-11 02:52:44 el recurso compartido puede ser una variable
-			- shows how many times you got it right and wrong
-			- rank their importance (0-5 decimal) with slider
-			- saved with easy-peasy persisted
-		- various kind of activities
-			- cloze
-			- C-Tests variations
-				http://www.c-test.de/deutsch/index.php?lang=de&content=beispiele&section=ctest
-			- match front/back, drag drop
-			- show the correct answer and all the other ones
+- )) PROJECT: general howtos
+	- )) HOWTO: how to increase quality of youtube videos on cell phone
+- PROJECT: soflash
+	- )) TASK: get new Vercel devops working well
+		- x understand various urls: my production branch was main
+		- x switch workflow to main
+		- x test feature branch: feat-test-99
+		- x make soflash-dev
+		- x understand why it still has suuids
+			- x still there after clear: yes
+			- x check local: yes, e.g. JxlE9S
+			- x answer: it's creating a new suuid every time, this will be made permanent with go script
+		- x branch: fix-remove-manage flashcards
+		- x make howto for Vercel workflow	
+		- )) 13:00 test again (currently too many posts)
+			- test workflow checking feature on -dev on cell phone, then on main
+			- on smart phone: change to website only
+	- TASK: Set up import from techlanglearn and get online again
+		- make howto: How to set up Go backend script for a React site
+			- set up Go backend with "npm run import"
+				- copies file
+				- loops through all, adds those that are not in flashcards
+				- with suuids
+		- get Learn page working again
+		- hide Manage page when online
+		- get site url back: soflash if possible
+	- TASK: enable dropdown on Learn page		
+		- add dropdown to Learn page
+		- shows french/spanish/italian, has appropriate colors
+	- TASK: multiple imports
+		- in addition to techlanglearn, import from internal for e.g. dates, numbers, colors, basics (towards, until, etc.), time
+		- make multigroup
+			- (most recent 10, french/spanish/italian, most important, already taken, not yet taken)
+		- make Flashcard page a development page and only accessible locally (env variables)
+		- have groups like Polish-Numbers
+		- find a good way to select a large group on handy, perhaps simply a list that opens up
+	- TASK: improve UX and clean up
+		- when select search, focus in input box
+		- create an "x" on right side of search to clear it	
+		- fix dropdown to look good on Chrome, Firefox and smartphone
+		- full responsive
+		- put tools in qtools
 	- TASK: add groups
 		- mathTerms: add, sustract, divide, multiply
 		- daysOfWeeks
 		- monthsOfYear
-		- numbersTo10
-		- numbersTo100
-		- numbersGreater100
+		- dutchNumbers
 		- tellingTime
-	- x TASK: Make basic FlashcardTraining component
-		- x make basic component with one flashcard, input box and button, display
-			- x basic component
-			- x show first flashcard
-			- x basic styling
-			- x add title to page
-			- x padding in both
-			- x dotted line
-			- x add "times got right: 0   times got wrong:0"
-			- x show random flashcard
-				- x store: getNextTestFlashcard
-			- x submit button loads new random flashcard
-			- x submit shows answer with "next" button
-				- x fix no notes
-				- x make enter click button
-			- x keep it going until correct
-				- x autofocus
-				- x show light colors if right/wrong
-				- x blank is white
-			- x count right wrong
-			- x make third status button when correct is "next flashcard"
-			- x move all state to store
-				- x testingStatus
-				- x numberWrong
-			- x show all wrongs up to right
-				- x record wrongs
-				- x show all final colors
-			- x make next flashcard work
-	- x TASK: implement user data tracking for FlashcardTraining component
-		- x make store elements needed
-		- x persist only that item
-			- x find where you used persist
-		- x show user info 
-			- x name upper right
-			- x icon next to name
-			- x score
-		- x connect current flashcard with user data
-			- x show idCode
-				- x fix: if blank, don't go to next
-				- x fix: trim answer
-			- x show user object for debugging
-				- x make config and devMode
-			- x make getFlashcardHistoryItem and get data
-			- x hook up right/wrong
-			- x record attempts
-				- x show attempts
-				- x show dates
-				- x flex and smaller date
-					- x fix the shadow values
-		- x add to total score 
-		- x solve shadow issue again
-	- x TASK: move to its own site: Flashcard Central and delete from trilingual site
-		- x build basic site
-			- x delete soflash first on Vercel
-			- x call it soflash
-			- x create from react-easy-peasy template: https://github.com/edwardtanguay/vite-react-menu-createbrowserrouter-easypeasy
-		- x welcome to Learn
-		- x name and picture
-		- x make all currently functionality available
-		- x make it usable on Smartphone
-			- x publish early to Vercel and develop every feature for mobile and web
-			- x get isSmartphone() function
-				- x put functions in mainModel
-				- x make computed variable
-				- x remake it with useEffect in app and state variable
-			- x quick: dev panel green/red 
-			- x head responsive
-				- x make responsiveSizeComputer and responsiveSizeSmartphone
-				- x computer top
-				- x smartphone top
-			- x make testing area responsive
-				- x smartphone: everything stacked 
-					- x showFront make two areas, one smartphone, one computer
-				- x input area stacked
-				- x smartphone text larger
-				- x force lower case on mobile
-				- x after-testing area ok (long phrases)
-					- x both both show only Nov 5 in table
-				- x when click button, focus
-				- x ver 			
-			- x when click button, put cursor in input box (for both smartphone and computer)
-		- x build in basic authorization
-			- x make local profile page
-				- x first make Guest User logged in
-					- x icon
-					- x when click on icon or name to profile
-			- x move all to authentication model	
-				- x fix map
-				- x fix <p>
-				- x fix next flashcard
-					- x state.testingStatus = "typingAnswer";
-					- make all private with _
-				- x check devmoe
-					- x scroll it
-				- x fix delete history
-				- x fix not updating
-					- x make incrementTotalScore
-				- x find all places it is lagging
-					- x setNextTestingFlashcard
-			- x make button on profile back to, i.e. just take out of if statement
-				- x make thunk for it: clearLocalStorage
-			- x fix quick: icon for guest as slate
-	- x TASK: make dev/main workflow
-		- x create main branch locally and push to GitHub
-		- x delete and recreate soflash from main, just changed setting at vercel
-		- x create soflash-dev.vercel.app and connect to dev
-		- .. do the workflow of a change from dev to main
-			- x change to "your flashcards"
-				- x didn't publish
-			- x make two icons on phone
-			- x test dev change on phone
-			- x change readme
- 
-	- x TASK: make user profile
-		- x branch: feat-local-login-page
-		- x make config.siteIsLocal and do a test to check online
-		- x make local note: decided against		
-		- x make user dashboard on profile page
-			- x title "USER PROFILE"
-			- x reset
-			- x stats
-			- x number of flashcards available
-			- x number of flashcards taken so far
-		- x make placeholder register and login pages
-		- x figure out why no nav
-		- x push, test, publish: "added user profile"
-	- x TASK: fix: do not show devMode if online
-		- x fix it
-	- .. TASK: make a separate go package
-	
-	
 	- TASK: login page and make local only
 		- x make login text and form on profile page
 		- x hide login form when online
@@ -295,12 +622,9 @@
 		- register works as well, new users are added
 			- currently the backend datasource will be a JSON file: db.json
 	- TASK: implement release versions in the repos
-		- learn how: https://www.youtube.com/results?search_query=github+releases+tutorial+
-			
+		- learn how: https://www.youtube.com/results?search_query=github+releases+tutorial+	
 	- TASK: make import instead of direct reading, and multi-lingual
 		- enable local user to change admin fields, e.g. notes, etc.
-		
-		
 	- TASK: extend capabilities
 		- .. show stats
 			- 332 items available
@@ -364,6 +688,20 @@
 				- more answers correct, lower likelihood
 	- TASK: implement Kinde for Google login
 	- TASK: implement Hetzner Node/Express/Mongo server to save state
+- extendTech
+	- TASK: Learn how to set up a virtual environment for Python; $rank=4.91
+		- https://www.youtube.com/results?search_query=virtual+environment+python+visual+studio+code
+	- https://webflow.com/
+	- Haskell
+- PROJECT: bash-showcase
+	- TASK: set it up like go-showcase, take a course and get numerous examples
+- PROJECT: fastapi-showcase
+	- TASK: make official
+		- add readme with all instructions to set up virtual environment, how to start, etc.
+		- figure out how to make start scripts
+		- add to main site
+- PROJECT: newtech	
+	- TASK: add to easyPeasy: selector and all other kinds
 - expandDatapod
 	- TASK: set up some project with Ruby as backend language
 	- TASK: set up some project with Rust as backend language
@@ -377,13 +715,15 @@
 	- TASK: make a dpodtools library to call in projects
 	- TASK: make epv (easy-peasy variable) which creates a new variables in the local easy-peasy store
 - datapodCentral
+	- TASK: give all tasks an idea, so you can have branch names like this
+		- bug/123/menu-issue
+		- feat/125/new-email-feature
 	- TASK: switch to Python, e.g. Flask or just a script
 	- TASK: enable site to read from tasks.tskplan.txt page
 		- transfer all othres as well into this format
 - dailyTeachLearn
 	- mux
 	- jwt
-
 - authenticationSolved
 	- TASK: Get Kinde working online on a React template site
 		- online with multiple Google accounts
@@ -408,6 +748,10 @@
 	- "the main project of 2025"
 - fullstackMernKinde
 - PROJECT: newTech2024
+	- TASK: do howto with drag and drop
+		- https://github.com/hello-pangea/dnd
+	- TASK: make howto for date-fns
+	- TASK: make howto for hooks: usehooks.com
 	- a page that saves state with URL variables and easy-peasy
 	- x make showCase model testMessage model
 	- .. TASK: make full CRUD employees with easy-peasy and json-server
@@ -473,3 +817,22 @@
 
 	- make basic hook to display one flashcard instead
 		- random flash with button next
+- PROJECT: jobwatch
+	- x TASK: update cv
+		x mock dci entry with pdf
+			- x update git
+			- x show local php site
+			- x update current
+				- x move database to cv and push to repo
+	- TASK: make base site (react/epredux)
+	- TASK: collect list of 20 teaching positions
+	- TASK: enable quick-application tracking
+	- x TASK: get application site up again
+		- x why page blank
+		- x get page to work
+			- x move through code and find error
+				- x find out why it lists zero
+		- x how did the two types of applications work
+		- x decision: abandon, reason: too many errors, too complicated
+- PROJECT: techlearn
+	- )) learn more Go

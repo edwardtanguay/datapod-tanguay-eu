@@ -1,17 +1,108 @@
+-  PROJECT: datapod-for-splitstack-mern
+- .. PROJECT: datapod-for-readonly-splitstack-dern
+	- info
+		- dern = data, express, react, node
+		- meant mostly as a template to make other datapods
+	- x setup simple backend
+		- x find project, it's js: https://github.com/edwardtanguay/ej2-job-manager-backend
+		- x find ts backend project: https://github.com/edwardtanguay/template-api-node-express-typescript-es6-modules-lowdb
+		- x better one: https://github.com/edwardtanguay/template-minimal-node-express-api
+			- x setup backend as is
+	- x create datapod-for-splitstack-lern-backend
+		- x make two copies in each: https://github.com/edwardtanguay/datapod-for-splitstack-lern-backend
+			- x get backend running and make repo
+			- x get frontend running and make repo
+		- x delete respective parts so that they use each other
+			- x start backend and change npm run dev on frontend to read back, back: 3335, front 3325
+			- x delete unused in backend
+			- x delete unused in frontend
+		- x to both: add link to one-directory
+	- x find template for next step: https://github.com/edwardtanguay/et431-jwt-fullstack
+	- .. copy lern to mern
+	- .. set up backend with login/jwt
+		- .. copy in from this template: https://github.com/edwardtanguay/et431-jwt-fullstack
+	- setup frontend
+		- copy in from this template: https://github.com/edwardtanguay/et431-jwt-fullstack
+		
 
+- .. PROJECT: coding-challenge-nextjs
+	- x TASK: set up site
+		- x make current template
+		- x create from template
+		- x about off
+	- x TASK: define types
+		- x add new data
+		- x Define a TypeScript interface for a blog post. A blog post should have an id, title, content, author, and an optional tags array.
+	- x TASK: main page: welcome to coding challenge
+		- x say welcome
+		- x link to blog page
+	- x TASK: change info to blog
+		- x list all blog posts: title and author
+	- x TASK: single item blog page
+		- display the full content of the blog post along with the title, author
+		- x and tags (if available)
+		- x feature to count the number of commas and dots in the blog post content
+	- x TASK: add CSS
+		- x use basic CSS for styling the application. Create a global CSS file or individual CSS modules for components
+	- .. TASK: about page to "New Blog Entry"
+		- x make form
+		- validate the form fields using Zod
+		- validate the tags as an array of strings
+		- utilize utility types like Pick, Partial, and Omit to handle different states of the data (or somehow)
+	- TASK: What would be possible solutions to improve the performance?
+	- TASK: (if time) clean
+	- TASK: (if time) computer view in middle (see other)	
+	- TASK: if time, make readme
+	- TASK: (if time) stats page list number of times blog view with puncution
+		- first just the list of all
+		- count how many times
+
+- PROJECT: italian-verbs
+	- TASK: display verb tables
+	- TASK: search
+	- TASK: Tatoeba
+- PROJECT: day-journal-time-tracker
+	- info
+		- parse the data you are saving in dp25.txt
+		- make site to show 
 - .. PROJECT: datapod-for-nextjs
-	- .. TASK: set up as datapod
+	- x TASK: set up as datapod
 		- x create with repo: datapod-for-nextjs
 			- x clean site with simple name
 			- x also clean readme
 			- x repo and site
 			- x fix dark mode
 			- x get control of styles on mobile
-		- .. add to datapod central site
-	- TASK: copy all functionality from tanguay-eu
-		- page navigation
-	- TASK: make responsive
-	- TASK: make CRUD page
+		- x add to datapod central site
+	- x TASK: navigation
+		- x page navigation: make Welcome, Info, About
+			- x create simple page without nav: about
+			- x find out what AppProvider is
+		- x style computer/mobile
+			- x mobile
+			- x computer
+		- x active link color
+		- x 404
+	- x TASK: make item page
+		- x change to 15
+		- x find when load (directory from .json)
+		- x make infos page show three infos from array
+		- x make id page that shows them
+		- x put back into config
+	- x TASK: load data from API
+		- x make infos route
+			- x fix caching
+			- x make /info/3 route
+		- x change title
+	- x TASK: unprotected delete route
+		- x get data from JSON file
+		- x make delete
+		- x block delete route if online
+	- .. TASK: center page if not 
+	- TASK: get overview
+		- .. https://www.youtube.com/watch?v=fqabW3WRUbw&t=501s
+	- TASK: protect delete route
+	- TASK: make CRUD page with infos
 	- TASK: work through next.js course and add functionality
 - PROJECT: run-site
 	- INFO
@@ -73,6 +164,13 @@
 	- info
 		- continue: https://github.com/edwardtanguay/two-factor-login-with-twilio
 	- TASK: redefine readme for new project; 15m
+- PROJECT: hyperlang
+	- info
+		- like hyper book
+		- score points by doing exercises
+		- exercises where e.g. you 
+		- or grammar tables e.g. Italian article prepositions (dei, degli) that you have to fil in 
+		- the cloze-type exercises, like this: https://verbito.net/worksheets/c-test/
 - PROJECT: useful links
 	- user
 		- https://www.openstreetmap.org
@@ -715,6 +813,9 @@
 	- TASK: make a dpodtools library to call in projects
 	- TASK: make epv (easy-peasy variable) which creates a new variables in the local easy-peasy store
 - datapodCentral
+	- TASK: todos
+		- Backend with instructions for Render: https://github.com/edwardtanguay/datapod-for-splitstack-mern-backend
+		- Split stack LERN (L = lowdb): create datapod-for-splitstack-lern-backend
 	- TASK: give all tasks an idea, so you can have branch names like this
 		- bug/123/menu-issue
 		- feat/125/new-email-feature

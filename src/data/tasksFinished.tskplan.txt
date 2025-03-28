@@ -1,3 +1,25 @@
+- x PROJECT: datapod-for-readonly-splitstack-dern
+	- info
+		- dern = data, express, react, node
+		- meant mostly as a template to make other datapods
+	- x setup simple backend
+		- x find project, it's js: https://github.com/edwardtanguay/ej2-job-manager-backend
+		- x find ts backend project: https://github.com/edwardtanguay/template-api-node-express-typescript-es6-modules-lowdb
+		- x better one: https://github.com/edwardtanguay/template-minimal-node-express-api
+			- x setup backend as is
+	- x create datapod-for-splitstack-lern-backend
+		- x make two copies in each: https://github.com/edwardtanguay/datapod-for-splitstack-lern-backend
+			- x get backend running and make repo
+			- x get frontend running and make repo
+		- x delete respective parts so that they use each other
+			- x start backend and change npm run dev on frontend to read back, back: 3335, front 3325
+			- x delete unused in backend
+			- x delete unused in frontend
+		- x to both: add link to one-directory
+	- x find template for next step: https://github.com/edwardtanguay/et431-jwt-fullstack
+	- x copy lern to mern
+
+
 - x PROJECT: virtual-medical-site //private
 	- x NOTES
 		- base it on this: https://www.qunomedical.com/en

@@ -1,49 +1,41 @@
-- PROJECT: datapod-for-react-go-json
-			- x update template: https://github.com/edwardtanguay/vite-react-node-express-lowdb-json-fullstack
-			- INFO:
-				- flashcards in text file (like in techlanglearn) that get parsed to JSON with items with a permanent suuid
-				- npm run dp "data parse" parses the data
-					- this is also run on "npm run dev"
-			- x decide on structure
-			- x create base site from template and repo
-			- x remove backend and make it so it reads JSON file directly
-			- x test zod
-			- x remove/resolve share				
-			- x delete all npm packages and npm i again
-			- x save as datapod-for-react-json
-			- x readme: basic
-			- x record at datapod central: https://github.com/edwardtanguay/datapod-for-react-json
-			- x check: https://datapod-tanguay-eu.vercel.app/home
-			
-			- .. add Go script "dp" that converts 
-				- .. redo code to fix fields
-			- record at Datapod central as datapod-for-react-go-json
-
-
-
-
-- PROJECT: compoutput
-	- set up with datapod-for-react-go-json
-
-- PROJECT: datapod-for-react-python-json
-
-- PROJECT: time-cruncher
-	- set up with datapod-for-react-python-json
-
-
-
-- PROJECT: info-online
-	- see in main2019: ``info-+++++
+- .. PROJECT: datapod-for-react-python-json
+	- x copy howto, make file for it in notepad++, customize first part, get set to work through
+	- .. work through and convert to Python
+		- x setting up virtual directory
+		- .. redo for new structure
 	
 	
--  PROJECT: datapod-for-splitstack-mern
+	
+	- add to Datapod central site
+
+
+- PROJECT: info-central
+	- INFO
+		- set up with datapod-for-react-python-json
+		- online but with password (env)
+		- time cruncher
+		- organizes all home howtos
+		- dashboard for everything, reads from others sites
+		- Python since this is the language I want to excel in 
+		
+		
+- PROJECT: datapod-for-react-csharp-json
+
+
+- PROJECT: datapod-for-splitstack-mern
 	- .. set up backend with login/jwt
 		- .. copy in from this template: https://github.com/edwardtanguay/et431-jwt-fullstack
 	- setup frontend
 		- copy in from this template: https://github.com/edwardtanguay/et431-jwt-fullstack
 		
+		
+		
 
-- .. PROJECT: coding-challenge-nextjs
+
+	
+	
+
+- x PROJECT: coding-challenge-nextjs
 	- x TASK: set up site
 		- x make current template
 		- x create from template
@@ -62,7 +54,7 @@
 		- x feature to count the number of commas and dots in the blog post content
 	- x TASK: add CSS
 		- x use basic CSS for styling the application. Create a global CSS file or individual CSS modules for components
-	- .. TASK: about page to "New Blog Entry"
+	- x TASK: about page to "New Blog Entry"
 		- x make form
 		- validate the form fields using Zod
 		- validate the tags as an array of strings

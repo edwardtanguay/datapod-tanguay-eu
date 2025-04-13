@@ -1,3 +1,109 @@
+
+- x PROJECT: comprehensible-output
+	- x set up with datapod-for-react-go-json at C:\edward\apps, name: compoutput
+	- x personalize (all on welcome page)
+	- x copy compoutput files to data directory
+	- x parse to show number of files 
+	- x replace all datapod
+	- x fix readme
+	- x INFO
+		- OutputDay
+			- Suuid
+			- Language
+			- Date
+			- Title
+			- htmlBody
+	- x create JSON file: outputDays.json
+	- x rest of fields raw
+	- x make all fields correct
+		- x language
+	- x frontend list titles
+	- x desc order
+	- x info page out
+	- x publish vercel
+	- x add HTML with dummy text and display frontend
+	- x build HTML from the lines
+	- x convert h2
+	- x fix nnn
+	- x first audio
+	- x cap first
+	- x make audio icon with button
+	- x only show audio icon if there is an audio file
+		- x fix all file
+	- x fix bubbling
+	- x colors for each language
+	- x about	
+	- x put append in function
+	- x (record all)
+	- x refactored parseData
+	- x microphone
+	- x polish color
+	- .. parse readings
+		- x show files
+		- x show lines
+	- x show readings on frontend
+	- x change OutputDay to OutputItem
+	- x add kind = "reading" | "blog"
+	- x display readings with outline
+	- x test mp3 size
+	- x put test in its own file
+	- x add "audioSeconds" field and calculate it
+		- x put in common
+		- x get slice and test
+		- x add field
+		- x save objects back again (put in common)
+			- x test: change german reading to blog
+	- x display audioSeconds
+	- x change German reading to a blog
+	- x make "estimatedAudioSeconds" and display frontend
+		- x put emoticon in util
+		- x calculate estimated
+	- x book icon
+	- x display as day groups with stats
+		- x include last day
+			- x sort the json file
+			- x make title match
+			- x get 27s
+			- x get last 27
+		- x calculate total seconds
+		- x add field: totalIncludesEstimates
+		- x show total seconds as time
+		- x display differently if 10 minutes or more
+	- x include empty days
+	- x fix empty day bug
+	- x command to create prompts from phrases recorded
+		- x make basic command cpf "create prompt file"
+			- x make prompts as variables
+			- x pass them in as parameters
+			- x randomize
+			- x prompt
+			- x add meaning on end
+			- x name of file
+			
+	
+
+- x PROJECT: datapod-for-react-go-json
+	- x update template: https://github.com/edwardtanguay/vite-react-node-express-lowdb-json-fullstack
+	- INFO:
+		- flashcards in text file (like in techlanglearn) that get parsed to JSON with items with a permanent suuid
+		- npm run dp "data parse" parses the data
+			- this is also run on "npm run dev"
+	- x decide on structure
+	- x create base site from template and repo
+	- x remove backend and make it so it reads JSON file directly
+	- x test zod
+	- x remove/resolve share				
+	- x delete all npm packages and npm i again
+	- x save as datapod-for-react-json
+	- x readme: basic
+	- x record at datapod central: https://github.com/edwardtanguay/datapod-for-react-json
+	- x check: https://datapod-tanguay-eu.vercel.app/home
+	- x add Go script "pd" that converts 
+		- x redo code to fix fields
+	- x record at Datapod central as datapod-for-react-go-json
+	- x video
+	
+	
 - x PROJECT: datapod-for-readonly-splitstack-dern
 	- info
 		- dern = data, express, react, node

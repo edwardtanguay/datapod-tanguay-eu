@@ -1,4 +1,23 @@
 
+- x PROJECT: datapod-for-react-csharp-json
+	- x copy from with python project 
+	- x creatd mock scripts
+	- x make mock scripts work
+	- x debug
+	- x parse data script
+		- x read file lines
+		- x suuid function
+		- x make class
+	- x test on Ubuntu
+	
+- x PROJECT: datapod-for-react-python-json
+	- x copy howto, make file for it in notepad++, customize first part, get set to work through
+	- x work through and convert to Python
+		- x setting up virtual directory
+		- x redo for new structure
+	- x add to Datapod central site
+
+
 - x PROJECT: comprehensible-output
 	- x set up with datapod-for-react-go-json at C:\edward\apps, name: compoutput
 	- x personalize (all on welcome page)

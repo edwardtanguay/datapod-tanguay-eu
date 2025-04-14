@@ -1,12 +1,12 @@
-- .. PROJECT: datapod-for-react-python-json
-	- x copy howto, make file for it in notepad++, customize first part, get set to work through
-	- .. work through and convert to Python
-		- x setting up virtual directory
-		- .. redo for new structure
-	
-	
-	
-	- add to Datapod central site
+- PROJECT: datapod-for-react-php-json
+- PROJECT: datapod-for-react-ruby-json
+
+- .. PROJECT: datapod-for-react-typescript-json
+	- .. central 
+
+- PROJECT: vim-central
+	- make howto
+	- make video
 
 
 - PROJECT: info-central
@@ -31,8 +31,9 @@
 		
 		
 
+- PROJECT: comprehensible-output
+	- TASK: create prompt generator
 
-	
 	
 
 - x PROJECT: coding-challenge-nextjs

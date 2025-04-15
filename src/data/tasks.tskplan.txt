@@ -1,12 +1,56 @@
-- PROJECT: datapod-for-react-php-json
-- PROJECT: datapod-for-react-ruby-json
-
 - .. PROJECT: datapod-for-react-typescript-json
-	- .. central 
+	- x central 
+	- x test TypeScript without transpiling
+	- .. base site and reduce to mock blank cmds
+	- add types commands that run "tsx scripts/create-page.ts"
+- PROJECT: datapod-for-react-php-json
+- PROJECT: datapod-for-react-bash-json
+- .. PROJECT: datapod-for-react-elixir-json
+	- INFO
+		- installing on windows:
+			- install Elixir
+				- https://elixir-lang.org/install.html
+				- Download and run the Erlang installer
+				- Download Windows Installer
+			- install Erlang
+				- https://elixir-lang.org/install.html#windows
+				- Elixir 1.18.3 on Erlang 27
+			- elixir -v
+		- installing on Ubuntu
+			- https://elixir-lang.org/install.html#distributions
+				- sudo add-apt-repository ppa:rabbitmq/rabbitmq-erlang
+				- sudo apt update
+				- sudo apt install git elixir erlang
+			- elixir -v
+			
+		- courses
+			- EN-2022: https://www.linkedin.com/learning/elixir-101-essential-functional-programming-techniques
+			
+- ,, PROJECT: datapod-for-react-ruby-json
+	- INFO
+		- install windows: https://rubyinstaller.org/downloads
+		- repo: https://github.com/edwardtanguay/test-ruby-scripts
+		- courses
+			- ES: https://github.com/edwardtanguay/test-ruby-scripts
+			- ES: https://github.com/edwardtanguay/test-ruby-scripts
+			- 
+
+- x PROJECT: datapod-for-react-csharp-json
+	- x make learn area
+
+- x PROJECT: comprehensible-output
+	- x read the file from techlanglearn directly
+	
+	
+	
+
 
 - PROJECT: vim-central
 	- make howto
 	- make video
+	
+- PROJECT: language-reference-sites
+	- TASK: convert tanguay.info/italian and all others to a Datapod site on Vercel
 
 
 - PROJECT: info-central

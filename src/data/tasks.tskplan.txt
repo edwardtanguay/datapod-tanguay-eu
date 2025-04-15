@@ -1,3 +1,4 @@
+
 - .. PROJECT: datapod-for-react-typescript-json
 	- x central 
 	- x test TypeScript without transpiling
@@ -34,6 +35,27 @@
 			- ES: https://github.com/edwardtanguay/test-ruby-scripts
 			- ES: https://github.com/edwardtanguay/test-ruby-scripts
 			- 
+
+- PROJECT: datapod-for-react-rust-json
+	- install on Windows
+		- https://www.rust-lang.org/tools/install
+		- Download rustup-init.exe (64-bit)
+			- install C++ build tools
+				- https://visualstudio.microsoft.com/it/downloads/
+				- find Microsoft Visual C++ download, install, reboot (!)
+				- that didn't work
+			- install Visual Studio Community
+				- https://learn.microsoft.com/de-de/visualstudio/install/install-visual-studio?view=vs-2022
+		- ok, it was too painful to navigate Microsoft's advertising-muddled sites to figure out how to install Visual Studio Code, just in order to run Rust
+			- so didn't install on Windows
+	- install on Ubuntu
+		- https://www.rust-lang.org/tools/install
+		- copy/paste command
+		- custom installation
+		- restarted shell, “rust” said not found
+		- rustc --version
+	- create new files with "cargo new create-page" etc.
+
 
 - x PROJECT: datapod-for-react-csharp-json
 	- x make learn area

@@ -1,15 +1,25 @@
-- .. PROJECT: datapod-for-react-typescript-json
+- .. PROJECT: datapod-for-react-csharp-json
+	- x make learn area
+	- x create JSON, base on ts
+	- .. make same structure as ts
+		- x commands
+		- .. utils to qtools
+	
+	
+
+- x PROJECT: datapod-for-react-typescript-json
 	- x central 
 	- x test TypeScript without transpiling
 	- x base site and reduce to mock blank cmds
 	- x add types commands that run "tsx scripts/create-page.ts"
 		- x move Go to C:\edward\apps
 		- x move Python to C:\edward\apps
-	- .. parse-data 
+	- x parse-data 
 		- x change to qtools
 		- x show file lines
 		- x commands in directory
-		- .. types
+		- x types
+		- x create array of Flashcards and show
 		
 		
 	
@@ -77,9 +87,6 @@
 		- rustc --version
 	- create new files with "cargo new create-page" etc.
 
-
-- x PROJECT: datapod-for-react-csharp-json
-	- x make learn area
 
 - x PROJECT: comprehensible-output
 	- x read the file from techlanglearn directly

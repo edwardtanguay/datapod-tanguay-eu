@@ -1,4 +1,20 @@
-
+- .. PROJECT: datapod-for-react-typescript-json
+	- x central 
+	- x test TypeScript without transpiling
+	- x base site and reduce to mock blank cmds
+	- x add types commands that run "tsx scripts/create-page.ts"
+		- x move Go to C:\edward\apps
+		- x move Python to C:\edward\apps
+	- .. parse-data 
+		- x change to qtools
+		- x show file lines
+		- x commands in directory
+		- .. types
+		
+		
+	
+	
+	
 - .. PROJECT: datapod-for-react-haskell-json
 	- install Haskell on Ubuntu
 		- https://www.haskell.org/ghcup/
@@ -9,12 +25,6 @@
 		- I had 9.6.7 (2025-04-16)
 
 
-
-- .. PROJECT: datapod-for-react-typescript-json
-	- x central 
-	- x test TypeScript without transpiling
-	- .. base site and reduce to mock blank cmds
-	- add types commands that run "tsx scripts/create-page.ts"
 - PROJECT: datapod-for-react-php-json
 - PROJECT: datapod-for-react-bash-json
 - .. PROJECT: datapod-for-react-elixir-json

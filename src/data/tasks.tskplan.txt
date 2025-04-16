@@ -1,9 +1,15 @@
-- .. PROJECT: datapod-for-react-csharp-json
+- .. PROJECT: datapod-for-react-php-json
+	- x two mock commands echo
+	- .. put in debug
+	
+	
+
+- x PROJECT: datapod-for-react-csharp-json
 	- x make learn area
 	- x create JSON, base on ts
-	- .. make same structure as ts
+	- x make same structure as ts
 		- x commands
-		- .. utils to qtools
+		- x utils to qtools
 	
 	
 
@@ -35,7 +41,6 @@
 		- I had 9.6.7 (2025-04-16)
 
 
-- PROJECT: datapod-for-react-php-json
 - PROJECT: datapod-for-react-bash-json
 - .. PROJECT: datapod-for-react-elixir-json
 	- INFO

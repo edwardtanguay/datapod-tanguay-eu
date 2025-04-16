@@ -1,6 +1,16 @@
-- .. PROJECT: datapod-for-react-php-json
+- .. PROJECT: datapod-for-react-ruby-json
+	- INFO
+		- install windows: https://rubyinstaller.org/downloads
+		- repo: https://github.com/edwardtanguay/test-ruby-scripts
+		- courses
+			- EN-2024: https://www.linkedin.com/learning/complete-guide-to-ruby/class-attributes?resume=false
+	- x create from php
+	- .. convert to shoe mock for two commands
+			
+			
+- x PROJECT: datapod-for-react-php-json
 	- x two mock commands echo
-	- .. put in debug
+	- x put in debug
 	
 	
 
@@ -63,14 +73,7 @@
 		- courses
 			- EN-2022: https://www.linkedin.com/learning/elixir-101-essential-functional-programming-techniques
 			
-- ,, PROJECT: datapod-for-react-ruby-json
-	- INFO
-		- install windows: https://rubyinstaller.org/downloads
-		- repo: https://github.com/edwardtanguay/test-ruby-scripts
-		- courses
-			- ES: https://github.com/edwardtanguay/test-ruby-scripts
-			- ES: https://github.com/edwardtanguay/test-ruby-scripts
-			- 
+
 
 - PROJECT: datapod-for-react-rust-json
 	- install on Windows

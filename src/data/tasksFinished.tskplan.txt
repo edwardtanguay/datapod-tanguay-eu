@@ -1,4 +1,23 @@
 
+
+- x PROJECT: datapod-for-react-kotlin-json
+	- install Windows
+		- install JDK
+			- verify with `java -version` (I have 13.0.1 on 2025-04-16)
+		- install Kotlin
+			- following these instructions: https://ultahost.com/knowledge-base/install-kotlin-windows/
+			- https://github.com/JetBrains/kotlin/releases/tag/v2.0.21
+			- kotlin-compiler-2.0.21.zip
+			- extract, e.g. here: C:\Users\ADMIN\Downloads\kotlin-compiler-2.0.21
+			- copied to: C:\Program Files\kotlinc
+			- set path:
+				- Kotlin
+				- C:\Program Files\kotlinc\bin
+			- `kotlinc - version`
+				- I got: kotlinc-jvm 2.0.21
+	- x abandoned this: couldn't get it to import other files
+	
+	
 - x PROJECT: datapod-for-react-csharp-json
 	- x copy from with python project 
 	- x creatd mock scripts

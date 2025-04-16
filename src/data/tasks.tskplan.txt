@@ -1,4 +1,15 @@
 
+- .. PROJECT: datapod-for-react-haskell-json
+	- install Haskell on Ubuntu
+		- https://www.haskell.org/ghcup/
+		- copy and paste command
+		- (choose all defaults)
+		- (takes about 5 minutes)
+		- ghc --version
+		- I had 9.6.7 (2025-04-16)
+
+
+
 - .. PROJECT: datapod-for-react-typescript-json
 	- x central 
 	- x test TypeScript without transpiling

@@ -1,4 +1,41 @@
-- .. PROJECT: datapod-for-react-ruby-json
+
+- .. PROJECT: datapod-for-react-elixir-json
+	- INFO
+		- installing on windows:
+			- install Elixir
+				- https://elixir-lang.org/install.html
+				- Download and run the Erlang installer
+				- Download Windows Installer
+			- install Erlang
+				- https://elixir-lang.org/install.html#windows
+				- Elixir 1.18.3 on Erlang 27
+			- elixir -v
+		- installing on Ubuntu
+			- https://elixir-lang.org/install.html#distributions
+				- sudo add-apt-repository ppa:rabbitmq/rabbitmq-erlang
+				- sudo apt update
+				- sudo apt install git elixir erlang
+			- elixir -v
+	- x copy from PHP
+	- x mock commands
+	- x debug
+	- x qcli.message
+	- x suuid
+	- x create JSON file
+	- .. add install info
+	- test ubuntu
+	
+			
+- PROJECT: tech-quotes
+	- datapodProject
+	- Elixir
+	- quotes
+		- Yes, Elixir and Ruby definitely have a relationship — not in how they run, but in how they feel. José Valim, the creator of Elixir, was a core contributor to Ruby on Rails before building Elixir. He wanted something with Ruby's expressiveness and developer happiness, but with better performance for high-concurrency, fault-tolerant systems.
+
+
+			
+			
+- x PROJECT: datapod-for-react-ruby-json
 	- INFO
 		- install windows: https://rubyinstaller.org/downloads
 		- repo: https://github.com/edwardtanguay/test-ruby-scripts
@@ -52,26 +89,6 @@
 
 
 - PROJECT: datapod-for-react-bash-json
-- .. PROJECT: datapod-for-react-elixir-json
-	- INFO
-		- installing on windows:
-			- install Elixir
-				- https://elixir-lang.org/install.html
-				- Download and run the Erlang installer
-				- Download Windows Installer
-			- install Erlang
-				- https://elixir-lang.org/install.html#windows
-				- Elixir 1.18.3 on Erlang 27
-			- elixir -v
-		- installing on Ubuntu
-			- https://elixir-lang.org/install.html#distributions
-				- sudo add-apt-repository ppa:rabbitmq/rabbitmq-erlang
-				- sudo apt update
-				- sudo apt install git elixir erlang
-			- elixir -v
-			
-		- courses
-			- EN-2022: https://www.linkedin.com/learning/elixir-101-essential-functional-programming-techniques
 			
 
 

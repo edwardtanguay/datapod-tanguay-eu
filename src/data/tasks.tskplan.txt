@@ -1,4 +1,29 @@
-- .. PROJECT: datapod-for-react-rust-json
+- .. PROJECT: datapod-for-react-kotlin-json
+	- x create
+	- x qdev:debug
+	- x second command
+	- x cli  
+	- .. suuid
+
+
+- x PROJECT: datapod-for-react-haskell-json
+	- INFO
+		- install Haskell on Ubuntu
+			- https://www.haskell.org/ghcup/
+			- copy and paste command
+			- (choose all defaults)
+			- (takes about 5 minutes)
+			- ghc --version
+			- I had 9.6.7 (2025-04-16)
+	- x install from PHP
+	- x mock cp print
+	- x debug function
+	- x cli
+	- x suuid 
+	
+
+
+- x PROJECT: datapod-for-react-rust-json
 	- INFO
 		- install on Windows
 			- https://www.rust-lang.org/tools/install
@@ -11,12 +36,7 @@
 					- https://learn.microsoft.com/de-de/visualstudio/install/install-visual-studio?view=vs-2022
 			- ok, it was too painful to navigate Microsoft's advertising-muddled sites to figure out how to install Visual Studio Code, just in order to run Rust
 				- so didn't install on Windows
-		- install on Ubuntu
-			- https://www.rust-lang.org/tools/install
-			- copy/paste command
-			- custom installation
-			- restarted shell, “rust” said not found
-			- `rustc --version`
+
 		- create new commands with "cargo new create-page" etc.
 	- x create datapod-for-react-rust-json from php site
 	- x create mock "cp" command
@@ -25,7 +45,9 @@
 	- x create debug with timestamp
 	- x finish qstr.message with switch
 	- x make parse-data.rs
-	- .. qstr.generateSuuid
+	- x qstr.generateSuuid
+	- x read file into lines 
+	- .. readme
 	
 	
 
@@ -44,6 +66,7 @@
 		- sites
 			- ... Python
 			- info-central --> TypeScript
+				- JobRad
 			- compoutput --> Go
 			- vim-central
 			- language-reference
@@ -114,16 +137,6 @@
 		
 	
 	
-	
-- .. PROJECT: datapod-for-react-haskell-json
-	- install Haskell on Ubuntu
-		- https://www.haskell.org/ghcup/
-		- copy and paste command
-		- (choose all defaults)
-		- (takes about 5 minutes)
-		- ghc --version
-		- I had 9.6.7 (2025-04-16)
-
 
 - PROJECT: datapod-for-react-bash-json
 			

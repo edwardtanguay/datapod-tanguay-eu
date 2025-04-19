@@ -20,7 +20,14 @@
 		- create new commands with "cargo new create-page" etc.
 	- x create datapod-for-react-rust-json from php site
 	- x create mock "cp" command
-	- .. create debug
+	- x ignore target/
+	- x math into qtools
+	- x create debug with timestamp
+	- x finish qstr.message with switch
+	- x make parse-data.rs
+	- .. qstr.generateSuuid
+	
+	
 
 
 - .. PROJECT: comprehensible-output

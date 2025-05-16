@@ -1,9 +1,129 @@
+- .. PROJECT: tanguayinfo
+	- x create project from https://github.com/edwardtanguay/datapod-for-react-typescript-json
+	- x publish to Vercel
+	- x change title
+	- x menu: Projects Latest About, blank projects
+		- x Welcome to projects and blank
+		- x info to Latest
+	- x style it darker "dev mode"
+		- x remove border
+		- x try retro feel
+		- x yellow
+	- x give tanguay.info the same style with one link this this site
+		- x manually, one step at a time
+	- x create projects JSON
+		- x file with two projects
+		- x create class DpodFile 
+		- x create class DpodLineBlock
+		- x create array of Projects and save to JSON file
+	- x show projects
+	- x about page
+	- .. latestItems
+		- x make file
+		- x parse
+		- x display
+		- .. style
+		
+		
+		
+		
+		
+		
+		
+	- projects
+		- Datapod video
+	
+
+- PROJECT: inthub25
+	- x set up from template site
+		- x move current apps to edward/projects/dpods
+		- x move all open projects to edward/projects/apps
+		- x clean projects
+		- x create inthub25 in apps
+	- x make script: npm run listruns
+		- x create directories on phone
+		- x clear front page
+		- x create mock "listruns" script
+		- .. make script actually list runs
+	- x make script: npm run getruns
+		
+	
+	
+- PROJECT: be-using-10-frameworks
+	- INFO
+		- projects
+			- typescript: internalhub
+				- password
+			- bash: tanguayinfo
+			- python: freiburg
+			- ruby: frontend-master
+			- go: compoutput
+			- python: langlearn
+				- /italian
+				- /polish
+				- /dutch
+				- /(all languages)
+				- easyfrench (dual subtitles)
+					- https://www.youtube.com/watch?v=PdmdX9tvJB4&list=PLnazreCxpqRlBNcfZuQkxYFKJ-VRuzrzV&index=4
+			- csharp: datapodcentral
+			- php: ethicscore
+			- elixir: techiteminfo
+			- bash: vimmaster
+			- rust: bookreader
+			- kotlin: 
+	
+	
+			
+- PROJECT: all-datapods
+	- TASK: fix the main-in-main problem
+	- TASK: make the responsive menu more user-friendly and intuative
+	- TASK: root base path
+		- make pathAndFileName based in root of project
+		- otherwise absolutePathAndFileName
+			
+- PROJECT: langref
+=====
+nl;pron;ruimte;(de:RAUM)-teh
+nl;pron;instructies;-tseez
+nl;pron;juist;YOWst
+=====
+
+- .. PROJECT: datapod-for-react-go-json
+	- x debug
+	- x with hammer icon
+	- x cli
+	- x rest
+	- .. make basic 001, 002 learn
+			
+- PROJECT: tech-item-info
+	- datapodProject
+	- Elixir
+	- items
+		- quote; elixir, ruby; Elixir and Ruby definitely have a relationship, not in how they run, but in how they feel; 4.7
+		- fact; elixir, ruby; José Valim, the creator of Elixir, was a core contributor to Ruby on Rails before building Elixir, he wanted something with Ruby's expressiveness and developer happiness, but with better performance for high-concurrency, fault-tolerant systems; 4.3
+		- fact; elixir; Elixir is built on the BEAM, which is the Erlang virtual machine, Elixir and Erlang code are compiled by the OTP (Open Telecom Platform) and executed on the BEAM; 3.8
+		- fact; elixir; start Interactive Elixir with `iex`; 2.3
+		- fact; functionalProgramming; functional programming is declarative which means it focuses on what to solve instead of how to solve, it's compose of functions that return values without chaning the software state; 4.1
+		- fact; functionalProgramming; functional programming avoids side effects and shared state by using pure functions and immutable data;4.2
+		- quote; elixir,haskell; Elixir is dynamically typed, meaning types are checked at runtime. This makes Elixir easier to start with, but it doesn't offer the same level of type safety as Haskell.;4.2
+		- quote; elixir; Elixir doesn't assign values to a variable, instead, Elixir binds a value to a variable;3.9
+		- fact; elixir; if c = [a,b] where a=3 and b=20, then you rebind a=4, c is still a list [3,20], this is immutability;4.4
+		- quote; elixir, ruby; If you have experience with Ruby, Mix in Elixir is like a mixture of Bundler, Rake and Gems.; 4.5
+		- fact;go; Go has no static members or constructors, which affects design patterns like Singleon, nor does it have class-based inheritance or method overload which affects patterns like Visitor; 3.2
+		- fact;go; Go has no has no support for error exceptions, but rather, errors are communicated back with return values, and so design patterns like Builder are affected by this kind of behavior; 3.4
+		- fact;go; Go has no direct concept for abstract classes, so design patterns like Abstract Factory and Bridge, are affected by this;3.8
+		- fact;designPatterns;Useful design patterns: Creational (Builder, Factory, Singleton), Structural (Adapter, Facade), Chain of Responsibility (Iterator, Observer)
+		- fact;rust;history of Rust: 2006 Mozilla employee project, 2010 sponsored by Mozilla, 2015 first stable version 1.0, since then every six weeks a new version
+		- fact;rust;Rust does not have a garbage collector, it uses a concept called ownership
 - .. PROJECT: datapod-for-react-kotlin-json
 	- x create
 	- x qdev:debug
 	- x second command
 	- x cli  
-	- .. suuid
+	- x suuid
+	- .. get lines
+ 	
+	
 
 
 - x PROJECT: datapod-for-react-haskell-json
@@ -59,19 +179,6 @@
 	
 
 
-	
-- PROJECT: sites-that-use-datapod
-	- INFO
-		- each site has its accompanying datapod
-		- sites
-			- ... Python
-			- info-central --> TypeScript
-				- JobRad
-			- compoutput --> Go
-			- vim-central
-			- language-reference
-			- tech-quotes --> Elixir
-			
 
 - x PROJECT: datapod-for-react-elixir-json
 	- INFO
@@ -85,15 +192,7 @@
 	- x add install info
 	- x test ubuntu
 	
-			
-- PROJECT: tech-quotes
-	- datapodProject
-	- Elixir
-	- quotes
-		- Yes, Elixir and Ruby definitely have a relationship — not in how they run, but in how they feel. José Valim, the creator of Elixir, was a core contributor to Ruby on Rails before building Elixir. He wanted something with Ruby's expressiveness and developer happiness, but with better performance for high-concurrency, fault-tolerant systems.
 
-
-			
 			
 - x PROJECT: datapod-for-react-ruby-json
 	- INFO

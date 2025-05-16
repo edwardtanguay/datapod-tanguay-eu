@@ -1,4 +1,107 @@
-
+- x PROJECT: base-ten-datapod
+	- x all in apps
+		- x rust
+		- x kotlin
+		- x bash
+	- .. update to qtools-learnunit-coursevideos-repoupdate
+		- x TypeScript - Ubuntu, Mac, Windows
+			- PROJECT: internalinfo
+		- x Go - Ubuntu, Mac, Windows
+			- PROJECT: compoutput
+		- x Python - Ubuntu, Mac, Windows
+			- PROJECT: language-reference
+			- x qtools
+				- x qdev
+				- x cli
+			- x learnunit
+		- x C# - Ubuntu, Mac, Windows
+			- INFO
+				- PROJECT: datapod-central (Angular, project management)
+					- task management (task.tskplan.txt)
+			- x create-page
+				- x qdev
+			- x parse-data
+				- x qstr
+			- x learnunit
+			- x find linq course, lost
+			- x course
+		- x PHP - Ubuntu, Mac, Windows
+			- PROJECT: ethical-foundation (rename)
+				- good-arguments
+				- anti-echo-chamber surfing
+				- will become major work, my book
+				- people
+					- Rutger Bregman
+						- https://www.youtube.com/watch?v=fbHJ9_dAo4c
+						- Davos: https://www.youtube.com/watch?v=paaen3b44XY
+				- quotes
+					- all great movements in history have been coalitions
+					- moderate anger is the new cool
+					- 
+			- x create-page
+				- qtools
+				- qdev
+				- cli
+			- x parse-data
+			- x course and do OOP exercise
+				- x switch to dev
+		- x Ruby - Ubuntu, Mac, Windows
+			- PROJECT: frontend-master
+			- x create-page
+				- x qtools
+				- x qdev
+				- x cli
+			- x parse-data
+			- x learn 001, 002
+				- x cli-learn with parameter showing
+				- x all to underscores
+				- x Learn class
+			- x start learning			
+		- x Elixir - Ubuntu, Mac, Windows
+			- PROJECT: techitem-info
+		- x Bash - Ubuntu, Mac
+			- PROJECT: 
+				- vim-central
+				- tanguay.info
+					- run site (2010-2024)
+					- run site (2024...)
+					- howto site
+					- Datapod frameworks
+					- social flashcards
+					- templates (
+					- jobs
+					- everything in my email signature
+					- dutch verbs
+					- learntracker
+					- books
+					- 1990s
+			- x create-page
+				- x qtools
+				- x qdev
+				- x cli
+			- x parse-data
+			- x learn
+		- x Rust - Ubuntu, Mac
+			- PROJECT
+				- freiburg-info
+			- x create-page
+				- x qtools
+				- x qdev
+				- x cli
+			- x parse-data
+			- x make learn section
+				- x script with parameter
+				- x make learn file
+			- x get course working and one example
+		- x Kotlin - Ubuntu, Mac
+			- PROJECT: book-reader
+			- x create-page
+			- x parse-data
+			- x learn base
+				- x param
+				- x dynamic exercise
+			- x learn with course content
+			
 
 - x PROJECT: datapod-for-react-kotlin-json
 	- install Windows
@@ -36,6 +139,31 @@
 		- x redo for new structure
 	- x add to Datapod central site
 
+
+- x PROJECT: development-project-matching
+	- INFO
+		- x compoutput --> Go
+		- x techitem-info --> Elixir	
+			- quotes
+			- facts
+		- x vim-central
+		- x freiburg-info
+			- develop infopod
+		- x info-central --> TypeScript
+			- JobRad		
+			- internal howtos
+			- daytime parsing in DP25.txt
+			- password online in environment variable
+		- x language-reference
+			- all languages
+			- italian verbs
+		- x project-management
+			- parse tasks.tskplan.txt
+		- x good-arguments
+		- x book-reader
+		- x frontend-master
+			
+			
 
 - x PROJECT: comprehensible-output
 	- x set up with datapod-for-react-go-json at C:\edward\apps, name: compoutput
